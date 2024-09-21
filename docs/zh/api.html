@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <style>
+        #header .lang {
+            display: none !important
+        }
+    </style>
+    <link rel="shortcut icon" href="../assets/4897246e6b3d8ad2f2fbe1437aa72881.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apache ECharts 文档 - API</title>
+    <link rel="stylesheet" href="../lib/reset.css">
+    <script src="../lib/pace.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1></h1>
+        <a class="lang" href="../zh/option.html">EN</a>
+    </div>
+    <script>
+        document.querySelector('#header h1').innerHTML = document.title;
+        document.querySelector('#header .lang').addEventListener('click', e => {
+            e.preventDefault();
+            window.location.href = '../en/' + location.pathname.split('/').pop() + location.search + location.hash;
+        });
+    </script>
+
+    <div id="app"></div>
+    <link rel="stylesheet" href="../assets/1761aa71e411be1c8a3caa8ee9c8069f.css">
+    <link rel="stylesheet" href="../css/doc-bundle.css">
+    <script src="../assets/8fb967d95bd5e31dbd1d0b1f944f3757.js"></script>
+    <script src="../assets/a252a26100658f69bf43b83fa9f5a352.js"></script>
+    <script src="../assets/ffb408d5cddecf707569b7f61ec9505f.js"></script>
+    <script src="../assets/c34930c558ca9d8642cec9340b854f58.js"></script>
+    <script src="../assets/d18943d5bb75eca3cfeaf536f1d0a935.js"></script>
+    <script src="../js/doc-bundle.js"></script>
+    <script>
+        echartsDoc.init('#app', {
+            baseUrl: 'documents/api-parts/',
+            docType: 'api',
+            locale: 'zh'
+        });
+    </script>
+
+    <script>
+        var $header = document.querySelector('#header');
+        var link = document.createElement('a');
+        link.href = 'javascript:void(0)';
+        link.target = '_blank';
+        link.innerText = '';
+        link.style.cssText = 'float:right;color:#29d;line-height:50px;margin-right:20px;text-decoration:none;';
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            location.href = 'https://echarts.apache.org/zh/' + location.pathname.split('/').pop() + location.search + location.hash;
+        });
+        $header.appendChild(link);
+    </script>
+</body>
+
+</html>

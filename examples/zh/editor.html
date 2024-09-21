@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/images/favicon.png" />
+  <title>ECharts Examples</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/element-ui.min.css" />
+  <script src="/js/vue.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/element-ui.min.js"></script>
+</head>
+
+<body>
+  <div id="main"></div>
+
+  <link rel="stylesheet" href="../css/example-bundle.css" />
+  <script src="../js/example-bundle.js"></script>
+
+  <script>
+    echartsExample.init(document.querySelector('#main'), {
+      locale: 'zh',
+      cdnRoot: '../',
+      page: 'editor',
+      version: Date.now()
+    });
+  </script>
+</body>
+
+</html>
