@@ -10,7 +10,7 @@ window.__EC_DOC_option_yAxis = {
     uiControl: { type: "enum", options: "left,right", default: "left" },
   },
   offset: {
-    desc: '\n\n<p>Y 轴相对于默认位置的偏移，在相同的 <code class="codespan">position</code> 上有多个 Y 轴的时候有用。<br>注：若未将 <code class="codespan">yAxis.axisLine.onZero</code> 设为 <code class="codespan">false</code> , 则该项无法生效</p>\n<p>需要配合其他配置项共同实现动态排序柱状图效果，具体参见<a href="https://echarts.apache.org/handbook/zh/how-to/chart-types/bar/bar-race" target="_blank">动态排序柱状图</a>教程。</p>\n',
+    desc: '\n\n<p>Y 轴相对于默认位置的偏移，在相同的 <code class="codespan">position</code> 上有多个 Y 轴的时候有用。<br>注：若未将 <code class="codespan">yAxis.axisLine.onZero</code> 设为 <code class="codespan">false</code> , 则该项无法生效</p>\n<p>需要配合其他配置项共同实现动态排序柱状图效果，具体参见<a href="https://echarts.apache.org/handbook/zh/how-to/chart-types/bar/bar-race/index.html" target="_blank">动态排序柱状图</a>教程。</p>\n',
     uiControl: { type: "number", step: "0.5" },
   },
   type: {

@@ -6,33 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>基础折线图 - 折线图 - 常用图表类型 - 应用篇 - 使用手册 - Apache ECharts</title>
-  <meta data-n-head="ssr" data-hid="docsearch:language" name="docsearch:language" content="zh">
+  <meta data-hid="docsearch:language" name="docsearch:language" content="zh">
 
-  <link data-n-head="ssr" rel="shortcut icon" type="image/png" href="/images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="../../../../../../images/favicon.png">
 
 
 
-  <link data-n-head="ssr" rel="stylesheet" href="/css/bootstrap.min.css">
-  <link data-n-head="ssr" rel="stylesheet" href="../../../handbook/css/main.css">
-  <link data-n-head="ssr" rel="stylesheet" href="/css/docsearch.min.css">
+  <link rel="stylesheet" href="../../../../../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../../../handbook/css/main.css">
+  <link rel="stylesheet" href="../../../../../../css/docsearch.min.css">
 
-  <script data-n-head="ssr" src="/js/jquery.min.js"></script>
-  <script data-n-head="ssr" src="/js/bootstrap.min.js"></script>
-  <script data-n-head="ssr" src="/js/docsearch.min.js"></script>
-  <link rel="preload" href="../../../handbook/_nuxt/c8269cf.js" as="script">
-  <link rel="preload" href="../../../handbook/_nuxt/js/3e4308adb1d2787dfe30.js" as="script">
-  <link rel="preload" href="../../../handbook/_nuxt/css/8117eb7.css" as="style">
-  <link rel="preload" href="../../../handbook/_nuxt/js/5678ff13ab4729372a2d.js" as="script">
-  <link rel="preload" href="../../../handbook/_nuxt/css/093f748.css" as="style">
-  <link rel="preload" href="../../../handbook/_nuxt/js/e55333c2cccd199c84cc.js" as="script">
-  <link rel="preload" href="../../../handbook/_nuxt/css/ba9ec8a.css" as="style">
-  <link rel="preload" href="../../../handbook/_nuxt/js/d12432e4d91f0b620f9a.js" as="script">
-  <link rel="preload" href="../../../handbook/_nuxt/css/3556c50.css" as="style">
-  <link rel="preload" href="../../../handbook/_nuxt/js/9d86a6602b3f4dd6c979.js" as="script">
-  <link rel="stylesheet" href="../../../handbook/_nuxt/css/8117eb7.css">
-  <link rel="stylesheet" href="../../../handbook/_nuxt/css/093f748.css">
-  <link rel="stylesheet" href="../../../handbook/_nuxt/css/ba9ec8a.css">
-  <link rel="stylesheet" href="../../../handbook/_nuxt/css/3556c50.css">
+  <script src="../../../../../../js/jquery.min.js"></script>
+  <script src="../../../../../../js/bootstrap.min.js"></script>
+  <script src="../../../../../../js/docsearch.min.js"></script>
+  <link rel="preload" href="../../../../../../handbook/_nuxt/c8269cf.js" as="script">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/js/3e4308adb1d2787dfe30.js" as="script">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/css/8117eb7.css" as="style">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/js/5678ff13ab4729372a2d.js" as="script">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/css/093f748.css" as="style">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/js/e55333c2cccd199c84cc.js" as="script">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/css/ba9ec8a.css" as="style">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/js/d12432e4d91f0b620f9a.js" as="script">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/css/3556c50.css" as="style">
+  <link rel="preload" href="../../../../../../handbook/_nuxt/js/9d86a6602b3f4dd6c979.js" as="script">
+  <link rel="stylesheet" href="../../../../../../handbook/_nuxt/css/8117eb7.css">
+  <link rel="stylesheet" href="../../../../../../handbook/_nuxt/css/093f748.css">
+  <link rel="stylesheet" href="../../../../../../handbook/_nuxt/css/ba9ec8a.css">
+  <link rel="stylesheet" href="../../../../../../handbook/_nuxt/css/3556c50.css">
 </head>
 
 <body>
@@ -51,51 +51,57 @@
               </div>
               <div class="bd-docs-nav">
                 <ul class="nav bd-sidenav nav-root level0">
-                  <li class="nav-item"><a href="../../../handbook/zh/get-started/index.html" class="nav-link"><span
-                        class="title">快速上手</span></a>
+                  <li class="nav-item"><a href="../../../../../../handbook/zh/get-started/index.html"
+                      class="nav-link"><span class="title">快速上手</span></a>
                     <ul class="nav bd-sidenav level1" style="display:none"></ul>
                   </li>
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">入门篇</span></div>
                     <ul class="nav bd-sidenav level1">
-                      <li class="nav-item"><a href="../../../handbook/zh/basics/download/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/basics/download/index.html"
                           class="nav-link"><span class="title">获取 ECharts</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/basics/import/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/basics/import/index.html"
                           class="nav-link"><span class="title">在项目中引入 ECharts</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/basics/help/index.html" class="nav-link"><span
-                            class="title">寻求帮助</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/basics/help/index.html"
+                          class="nav-link"><span class="title">寻求帮助</span></a>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
                       <li class="nav-item"><a class="nav-link"><span class="title">版本特性</span> <span
                             class="glyphicon glyphicon-menu-down"></span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none">
-                          <li class="nav-item"><a href="../../../handbook/zh/basics/release-note/v5-feature"
+                        <ul class="nav bd-sidenav level2">
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/basics/release-note/v5-feature/index.html"
                               class="nav-link"><span class="title">ECharts 5 特性介绍</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
-                          <li class="nav-item"><a href="../../../handbook/zh/basics/release-note/v5-upgrade-guide"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/basics/release-note/v5-upgrade-guide/index.html"
                               class="nav-link"><span class="title">v4 升级 v5 指南</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
-                          <li class="nav-item"><a href="../../../handbook/zh/basics/release-note/5-2-0"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/basics/release-note/5-2-0/index.html"
                               class="nav-link"><span class="title">5.2</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
-                          <li class="nav-item"><a href="../../../handbook/zh/basics/release-note/5-3-0"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/basics/release-note/5-3-0/index.html"
                               class="nav-link"><span class="title">5.3</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
-                          <li class="nav-item"><a href="../../../handbook/zh/basics/release-note/5-4-0"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/basics/release-note/5-4-0/index.html"
                               class="nav-link"><span class="title">5.4</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
-                          <li class="nav-item"><a href="../../../handbook/zh/basics/release-note/5-5-0"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/basics/release-note/5-5-0/index.html"
                               class="nav-link"><span class="title">5.5</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
                         </ul>
                       </li>
@@ -104,37 +110,37 @@
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">概念篇</span></div>
                     <ul class="nav bd-sidenav level1">
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/chart-size" class="nav-link"><span
-                            class="title">图表容器及大小</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/chart-size"
+                          class="nav-link"><span class="title">图表容器及大小</span></a>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li><!----><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/style" class="nav-link"><span
-                            class="title">样式</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/style/index.html"
+                          class="nav-link"><span class="title">样式</span></a>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/dataset/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/dataset/index.html"
                           class="nav-link"><span class="title">数据集</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/data-transform/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/data-transform/index.html"
                           class="nav-link"><span class="title">数据转换</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/axis/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/axis/index.html"
                           class="nav-link"><span class="title">坐标轴</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/visual-map/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/visual-map/index.html"
                           class="nav-link"><span class="title">视觉映射</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/legend/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/legend/index.html"
                           class="nav-link"><span class="title">图例</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/event/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/concepts/event/index.html"
                           class="nav-link"><span class="title">事件与行为</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
                     </ul>
                   </li>
@@ -146,20 +152,24 @@
                         <ul class="nav bd-sidenav level2">
                           <li class="nav-item"><a class="nav-link"><span class="title">柱状图</span> <span
                                 class="glyphicon glyphicon-menu-down"></span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none">
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/bar/basic-bar"
+                            <ul class="nav bd-sidenav level3">
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/bar/basic-bar/index.html"
                                   class="nav-link"><span class="title">基础柱状图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/bar/stacked-bar"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/bar/stacked-bar/index.html"
                                   class="nav-link"><span class="title">堆叠柱状图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/bar/bar-race"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/bar/bar-race/index.html"
                                   class="nav-link"><span class="title">动态排序柱状图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li><!---->
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/bar/waterfall"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/bar/waterfall/index.html"
                                   class="nav-link"><span class="title">阶梯瀑布图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li><!---->
@@ -168,24 +178,29 @@
                           <li class="nav-item"><a class="nav-link"><span class="title">折线图</span> <span
                                 class="glyphicon glyphicon-menu-up"></span></a>
                             <ul class="nav bd-sidenav level3">
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/line/basic-line"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/line/basic-line/index.html"
                                   aria-current="page" class="nav-link nuxt-link-exact-active nuxt-link-active"><span
                                     class="title">基础折线图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/line/stacked-line"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/line/stacked-line/index.html"
                                   class="nav-link"><span class="title">堆叠折线图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/line/area-line"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/line/area-line/index.html"
                                   class="nav-link"><span class="title">区域面积图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/line/smooth-line"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/line/smooth-line/index.html"
                                   class="nav-link"><span class="title">平滑曲线图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/line/step-line"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/line/step-line/index.html"
                                   class="nav-link"><span class="title">阶梯线图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
@@ -193,16 +208,19 @@
                           </li>
                           <li class="nav-item"><a class="nav-link"><span class="title">饼图</span> <span
                                 class="glyphicon glyphicon-menu-down"></span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none">
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/pie/basic-pie"
+                            <ul class="nav bd-sidenav level3">
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/pie/basic-pie/index.html"
                                   class="nav-link"><span class="title">基础饼图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/pie/doughnut"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/pie/doughnut/index.html"
                                   class="nav-link"><span class="title">圆环图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
-                              <li class="nav-item"><a href="../../../handbook/zh/how-to/chart-types/pie/rose"
+                              <li class="nav-item"><a
+                                  href="../../../../../../handbook/zh/how-to/chart-types/pie/rose/index.html"
                                   class="nav-link"><span class="title">南丁格尔图（玫瑰图）</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
@@ -210,9 +228,9 @@
                           </li>
                           <li class="nav-item"><a class="nav-link"><span class="title">散点图</span> <span
                                 class="glyphicon glyphicon-menu-down"></span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none">
+                            <ul class="nav bd-sidenav level3">
                               <li class="nav-item"><a
-                                  href="../../../handbook/zh/how-to/chart-types/scatter/basic-scatter"
+                                  href="../../../../../../handbook/zh/how-to/chart-types/scatter/basic-scatter/index.html"
                                   class="nav-link"><span class="title">基础散点图</span></a>
                                 <ul class="nav bd-sidenav level4" style="display:none"></ul>
                               </li>
@@ -222,58 +240,65 @@
                       </li><!---->
                       <li class="nav-item"><a class="nav-link"><span class="title">跨平台方案</span> <span
                             class="glyphicon glyphicon-menu-down"></span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none">
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/cross-platform/server"
+                        <ul class="nav bd-sidenav level2">
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/how-to/cross-platform/server/index.html"
                               class="nav-link"><span class="title">服务端渲染</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/cross-platform/wechat-app"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/how-to/cross-platform/wechat-app/index.html"
                               class="nav-link"><span class="title">微信小程序</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/cross-platform/baidu-app"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/how-to/cross-platform/baidu-app/index.html"
                               class="nav-link"><span class="title">百度智能小程序</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item"><a class="nav-link"><span class="title">数据处理</span> <span
                             class="glyphicon glyphicon-menu-down"></span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none">
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/data/dynamic-data"
+                        <ul class="nav bd-sidenav level2">
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/how-to/data/dynamic-data/index.html"
                               class="nav-link"><span class="title">动态的异步数据</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li><!---->
                         </ul>
                       </li>
                       <li class="nav-item"><a class="nav-link"><span class="title">标签</span> <span
                             class="glyphicon glyphicon-menu-down"></span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none">
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/label/rich-text"
+                        <ul class="nav bd-sidenav level2">
+                          <li class="nav-item"><a href="../../../../../../handbook/zh/how-to/label/rich-text/index.html"
                               class="nav-link"><span class="title">富文本标签</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item"><a class="nav-link"><span class="title">动画</span> <span
                             class="glyphicon glyphicon-menu-down"></span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none">
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/animation/transition"
+                        <ul class="nav bd-sidenav level2">
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/how-to/animation/transition/index.html"
                               class="nav-link"><span class="title">数据过渡动画</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item"><a class="nav-link"><span class="title">交互</span> <span
                             class="glyphicon glyphicon-menu-down"></span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none">
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/interaction/drag"
+                        <ul class="nav bd-sidenav level2">
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/how-to/interaction/drag/index.html"
                               class="nav-link"><span class="title">拖拽的实现</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li><!---->
-                          <li class="nav-item"><a href="../../../handbook/zh/how-to/interaction/coarse-pointer"
+                          <li class="nav-item"><a
+                              href="../../../../../../handbook/zh/how-to/interaction/coarse-pointer/index.html"
                               class="nav-link"><span class="title">智能指针吸附</span></a>
-                            <ul class="nav bd-sidenav level3" style="display:none"></ul>
+                            <ul class="nav bd-sidenav level3"></ul>
                           </li>
                         </ul>
                       </li>
@@ -282,22 +307,23 @@
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">最佳实践</span></div>
                     <ul class="nav bd-sidenav level1"><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/canvas-vs-svg/index.html"
+                      <li class="nav-item"><a
+                          href="../../../../../../handbook/zh/best-practices/canvas-vs-svg/index.html"
                           class="nav-link"><span class="title">Canvas vs. SVG</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/aria/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/best-practices/aria/index.html"
                           class="nav-link"><span class="title">无障碍访问</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">编辑本文档</span></div>
                     <ul class="nav bd-sidenav level1">
-                      <li class="nav-item"><a href="../../../handbook/zh/meta/edit-guide/index.html"
+                      <li class="nav-item"><a href="../../../../../../handbook/zh/meta/edit-guide/index.html"
                           class="nav-link"><span class="title">文档编辑指南</span></a>
-                        <ul class="nav bd-sidenav level2" style="display:none"></ul>
+                        <ul class="nav bd-sidenav level2"></ul>
                       </li>
                     </ul>
                   </li>
@@ -627,7 +653,7 @@
                   </div>
                   <div class="post-contributors">
                     <h3><span class="inline-block align-middle">本文贡献者</span> <a target="_blank"
-                        href="https://github.com/apache/echarts-handbook/tree/master/contents/zh/how-to/chart-types/line/basic-line.md"
+                        href="https://github.com/apache/echarts-handbook/tree/master/contents/zh/how-to/chart-types/line/basic-line/index.html.md"
                         title="编辑本文" class="inline-block align-middle text-sm"><svg xmlns="http://www.w3.org/2000/svg"
                           fill="none" viewBox="0 0 24 24" stroke="currentColor"
                           class="h-8 w-8 inline-block align-middle">
@@ -648,11 +674,11 @@
       </div>
     </div>
   </div>
-  <script>window.__NUXT__ = function (i, e, t, d, r, l, a, o, n, c, s, g, C, h, A, I, B, p, E, b, w, m, f, y, u, v, S, x, D, G, L, M, R, O, z, F, k, H, V, W, J, T, Q, X, P, K, Z, j, U, Y, N, _, q, $, ii, ei, ti, di) { return { layout: "default", data: [{ html: '<h1 id="%E5%9F%BA%E7%A1%80%E6%8A%98%E7%BA%BF%E5%9B%BE" tabindex="-1">基础折线图</h1>\n<p>折线图主要用来展示数据项随着时间推移的趋势或变化。</p>\n<h2 id="%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E6%8A%98%E7%BA%BF%E5%9B%BE" tabindex="-1">最简单的折线图</h2>\n<p>如果我们想建立一个横坐标是类目型（category）、纵坐标是数值型（value）的折线图，我们可以使用这样的方式：</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICB0eXBlOiAnY2F0ZWdvcnknLAogICAgZGF0YTogWydBJywgJ0InLCAnQyddCiAgfSwKICB5QXhpczogewogICAgdHlwZTogJ3ZhbHVlJwogIH0sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsxMjAsIDIwMCwgMTUwXSwKICAgICAgdHlwZTogJ2xpbmUnCiAgICB9CiAgXQp9Ow\'" v-bind="{}" />\n<p>在这个例子中，我们通过 <code>xAxis</code> 将横坐标设为类目型，并指定了对应的值；通过 <code>type</code> 将 <code>yAxis</code> 的类型设定为数值型。在 <code>series</code> 中，我们将系列类型设为 <code>line</code>，并且通过 <code>data</code> 指定了折线图三个点的取值。这样，就能得到一个最简单的折线图了。</p>\n<blockquote>\n<p>这里 <code>xAxis</code> 和 <code>yAxis</code> 的 <code>type</code> 属性都可以隐去不写。因为坐标轴的默认类型是数值型，而 <code>xAxis</code> 指定了类目型的 <code>data</code>，所以 <code>ECharts</code> 也能识别出这是类目型的坐标轴。为了让大家更容易理解，我们特意写了 <code>type</code>。在实际的应用中，如果是 <code>\'value\'</code> 类型，也可以省略不写。</p>\n</blockquote>\n<h2 id="%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%AD%E7%9A%84%E6%8A%98%E7%BA%BF%E5%9B%BE" tabindex="-1">笛卡尔坐标系中的折线图</h2>\n<p>如果我们希望折线图在横坐标和纵坐标上都是连续的，即在笛卡尔坐标系中，应该如何实现呢？答案也很简单，只要把 <code>series</code> 的 <code>data</code> 每个数据用一个包含两个元素的数组表示就行了。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7fSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsKICAgICAgICBbMjAsIDEyMF0sCiAgICAgICAgWzUwLCAyMDBdLAogICAgICAgIFs0MCwgNTBdCiAgICAgIF0sCiAgICAgIHR5cGU6ICdsaW5lJwogICAgfQogIF0KfTs\'" v-bind="{}" />\n<h2 id="%E6%8A%98%E7%BA%BF%E5%9B%BE%E6%A0%B7%E5%BC%8F%E8%AE%BE%E7%BD%AE" tabindex="-1">折线图样式设置</h2>\n<h3 id="%E6%8A%98%E7%BA%BF%E7%9A%84%E6%A0%B7%E5%BC%8F" tabindex="-1">折线的样式</h3>\n<p>折线图中折线的样式可以通过 <code>lineStyle</code> 设置。可以为其指定颜色、线宽、折线类型、阴影、不透明度等等，具体的可以参考配置项手册 <a href="/option.html#series-line.lineStyle"><code>series.lineStyle</code></a> 了解。这里，我们以设置颜色（color）、线宽（width）和折线类型（type）为例说明。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICBkYXRhOiBbJ0EnLCAnQicsICdDJywgJ0QnLCAnRSddCiAgfSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsxMCwgMjIsIDI4LCAyMywgMTldLAogICAgICB0eXBlOiAnbGluZScsCiAgICAgIGxpbmVTdHlsZTogewogICAgICAgIG5vcm1hbDogewogICAgICAgICAgY29sb3I6ICdncmVlbicsCiAgICAgICAgICB3aWR0aDogNCwKICAgICAgICAgIHR5cGU6ICdkYXNoZWQnCiAgICAgICAgfQogICAgICB9CiAgICB9CiAgXQp9Ow\'" v-bind="{}" />\n<p>这里设置折线宽度时，数据点描边的宽度是不会跟着改变的，而应该在数据点的配置项中另外设置。</p>\n<h3 id="%E6%95%B0%E6%8D%AE%E7%82%B9%E7%9A%84%E6%A0%B7%E5%BC%8F" tabindex="-1">数据点的样式</h3>\n<p>数据点的样式可以通过 <a href="/option.html#series-line.itemStyle"><code>series.itemStyle</code></a> 指定填充颜色（color）、描边颜色（borderColor）、描边宽度（borderWidth）、描边类型（borderType）、阴影（shadowColor）、不透明度（opacity）等。与折线样式的设置十分相似，这里不再展开说明。</p>\n<h2 id="%E5%9C%A8%E6%95%B0%E6%8D%AE%E7%82%B9%E5%A4%84%E6%98%BE%E7%A4%BA%E6%95%B0%E5%80%BC" tabindex="-1">在数据点处显示数值</h2>\n<p>在系列中，这数据点的标签通过 <a href="/option.html#series-line.label"><code>series.label</code></a> 属性指定。如果将 <code>label</code> 下的 <code>show</code> 指定为<code>true</code>，则表示该数值默认时就显示；如果为 <code>false</code>，而 <a href="/option.html#series-line.emphasis.label.show"><code>series.emphasis.label.show</code></a> 为 <code>true</code>，则表示只有在鼠标移动到该数据时，才显示数值。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICBkYXRhOiBbJ0EnLCAnQicsICdDJywgJ0QnLCAnRSddCiAgfSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsxMCwgMjIsIDI4LCAyMywgMTldLAogICAgICB0eXBlOiAnbGluZScsCiAgICAgIGxhYmVsOiB7CiAgICAgICAgc2hvdzogdHJ1ZSwKICAgICAgICBwb3NpdGlvbjogJ2JvdHRvbScsCiAgICAgICAgdGV4dFN0eWxlOiB7CiAgICAgICAgICBmb250U2l6ZTogMjAKICAgICAgICB9CiAgICAgIH0KICAgIH0KICBdCn07\'" v-bind="{}" />\n<h2 id="%E7%A9%BA%E6%95%B0%E6%8D%AE" tabindex="-1">空数据</h2>\n<p>在一个系列中，可能一个横坐标对应的取值是“空”的，将其设为 0 有时并不能满足我们的期望--空数据不应被其左右的数据连接。</p>\n<p>在 ECharts 中，我们使用字符串 <code>\'-\'</code> 表示空数据，这对其他系列的数据也是适用的。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICBkYXRhOiBbJ0EnLCAnQicsICdDJywgJ0QnLCAnRSddCiAgfSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFswLCAyMiwgJy0nLCAyMywgMTldLAogICAgICB0eXBlOiAnbGluZScKICAgIH0KICBdCn07\'" v-bind="{}" />\n<blockquote>\n<p>注意区别这个例子中，“空”数据与取值为 0 的数据。</p>\n</blockquote>\n', postPath: "zh/how-to/chart-types/line/basic-line", title: "基础折线图 - 折线图 - 常用图表类型 - 应用篇" }], fetch: {}, error: null, state: { filled: !1, docVersion: "", ghVersion: "", visibleAffix: !1, homepage: {}, adBlocked: !1, focusMode: !1, posts: { zh: [{ title: "快速上手", dir: d }, { title: "入门篇", dir: r, children: [{ title: "获取 ECharts", dir: l }, { title: "在项目中引入 ECharts", dir: a }, { title: "资源列表", dir: o, draft: i }, { title: "寻求帮助", dir: n }, { title: "版本特性", dir: c, children: [{ title: "ECharts 5 特性介绍", dir: s }, { title: "v4 升级 v5 指南", dir: g }, { title: 5.2, dir: C }, { title: 5.3, dir: h }, { title: 5.4, dir: A }, { title: 5.5, dir: I }] }] }, { title: "概念篇", dir: B, children: [{ title: "图表容器及大小", dir: p }, { title: "配置项", dir: E, draft: i }, { title: "系列", dir: b, draft: i }, { title: "样式", dir: w }, { title: "数据集", dir: m }, { title: "数据转换", dir: f }, { title: "坐标系", dir: y, draft: i }, { title: "坐标轴", dir: u }, { title: "视觉映射", dir: t }, { title: "图例", dir: v }, { title: "事件与行为", dir: S }] }, { title: "应用篇", dir: x, children: [{ title: "常用图表类型", dir: D, children: [{ title: "柱状图", dir: "bar", children: [{ title: "基础柱状图", dir: G }, { title: "堆叠柱状图", dir: L }, { title: "动态排序柱状图", dir: M }, { title: "极坐标系柱状图", dir: R, draft: i }, { title: "阶梯瀑布图", dir: O }, { title: "视觉映射的柱状图", dir: t, draft: i }] }, { title: "折线图", dir: z, children: [{ title: "基础折线图", dir: F }, { title: "堆叠折线图", dir: k }, { title: "区域面积图", dir: H }, { title: "平滑曲线图", dir: V }, { title: "阶梯线图", dir: W }] }, { title: "饼图", dir: "pie", children: [{ title: "基础饼图", dir: J }, { title: "圆环图", dir: T }, { title: "南丁格尔图（玫瑰图）", dir: Q }] }, { title: "散点图", dir: X, children: [{ title: "基础散点图", dir: P }] }] }, { title: "移动端优化", dir: e, draft: i }, { title: "跨平台方案", dir: K, children: [{ title: "服务端渲染", dir: "server" }, { title: "微信小程序", dir: "wechat-app" }, { title: "百度智能小程序", dir: "baidu-app" }] }, { title: "数据处理", dir: "data", children: [{ title: "动态的异步数据", dir: Z }, { title: "数据下钻", dir: j, draft: i }] }, { title: "标签", dir: "label", children: [{ title: "富文本标签", dir: U }] }, { title: "动画", dir: Y, children: [{ title: "数据过渡动画", dir: N }] }, { title: "交互", dir: _, children: [{ title: "拖拽的实现", dir: "drag" }, { title: "多图联动", dir: q, draft: i }, { title: "智能指针吸附", dir: $ }] }] }, { title: "最佳实践", dir: ii, children: [{ title: "移动端优化", dir: e, draft: i }, { title: ei, dir: ti }, { title: "无障碍访问", dir: "aria" }] }, { title: "编辑本文档", dir: "meta", children: [{ title: "文档编辑指南", dir: di }] }], en: [{ title: "Get Started", dir: d }, { title: "Basics", dir: r, children: [{ title: "Download ECharts", dir: l }, { title: "Import ECharts", dir: a }, { title: "Resources", dir: o, draft: i }, { title: "Get Help", dir: n }, { title: "What's New", dir: c, children: [{ title: "ECharts 5 Features", dir: s }, { title: "Migration from v4 to v5", dir: g }, { title: 5.2, dir: C }, { title: 5.3, dir: h }, { title: 5.4, dir: A }, { title: 5.5, dir: I }] }] }, { title: "Concepts", dir: B, children: [{ title: "Chart Container", dir: p }, { title: "Chart Option", dir: E, draft: i }, { title: "Series", dir: b, draft: i }, { title: "Style", dir: w }, { title: "Dataset", dir: m }, { title: "Data Transform", dir: f }, { title: "Coordinate", dir: y, draft: i }, { title: "Axis", dir: u }, { title: "Visual Mapping", dir: t }, { title: "Legend", dir: v }, { title: "Event and Action", dir: S }] }, { title: "How To Guides", dir: x, children: [{ title: "Common Charts", dir: D, children: [{ title: "Bar", dir: "bar", children: [{ title: "Basic Bar", dir: G }, { title: "Stacked Bar", dir: L }, { title: "Bar Racing", dir: M }, { title: "Bar Polar", dir: R, draft: i }, { title: "Waterfall", dir: O }] }, { title: "Line", dir: z, children: [{ title: "Basic Line", dir: F }, { title: "Stacked Line", dir: k }, { title: "Area Chart", dir: H }, { title: "Smoothed Line", dir: V }, { title: "Step Line", dir: W }] }, { title: "Pie", dir: "pie", children: [{ title: "Basic Pie", dir: J }, { title: "Ring Style", dir: T }, { title: "Rose Style", dir: Q }] }, { title: "Scatter", dir: X, children: [{ title: "Basic Scatter", dir: P }] }] }, { title: "Mobile", dir: e, draft: i }, { title: "Cross Platform", dir: K, children: [{ title: "Server Side Rendering", dir: "server" }] }, { title: "Data", dir: "data", children: [{ title: "Dynamic Data", dir: Z }, { title: "Drilldown", dir: j, draft: i }] }, { title: "Label", dir: "label", children: [{ title: "Rich Text", dir: U }] }, { title: "Animation", dir: Y, children: [{ title: "Data Transition", dir: N }] }, { title: "Interaction", dir: _, children: [{ title: "Drag", dir: "drag" }, { title: "Connect", dir: q, draft: i }, { title: "Intelligent Pointer Snapping", dir: $ }] }] }, { title: "Best Practices", dir: ii, children: [{ title: "Mobile Optimization", dir: e, draft: i }, { title: ei, dir: ti }, { title: "Aria", dir: "aria" }] }, { title: "Edit Handbook", dir: "meta", children: [{ title: "Edit Guide", dir: di }] }] }, config: { routerBase: "/handbook", rootPath: "/handbook/", exampleViewPath: "/examples/${lang}/view.html?c=", exampleEditorPath: "/examples/${lang}/editor.html?c=", mainSitePath: "/", optionPath: "/option.html#", gitRepo: "apache/echarts-handbook" }, i18n: { routeParams: {} } }, serverRendered: i, routePath: "/zh/how-to/chart-types/line/basic-line", config: { _app: { basePath: "/handbook/", assetsPath: "/handbook/_nuxt/", cdnURL: null } } } }(!0, "mobile", "visual-map", "get-started", "basics", "download", "import", "resource", "help", "release-note", "v5-feature", "v5-upgrade-guide", "5-2-0", "5-3-0", "5-4-0", "5-5-0", "concepts", "chart-size", "options", "series", "style", "dataset", "data-transform", "coordinate", "axis", "legend", "event", "how-to", "chart-types", "basic-bar", "stacked-bar", "bar-race", "polar-bar", "waterfall", "line", "basic-line", "stacked-line", "area-line", "smooth-line", "step-line", "basic-pie", "doughnut", "rose", "scatter", "basic-scatter", "cross-platform", "dynamic-data", "drilldown", "rich-text", "animation", "transition", "interaction", "connect", "coarse-pointer", "best-practices", "Canvas vs. SVG", "canvas-vs-svg", "edit-guide")</script>
+  <script>window.__NUXT__ = function (i, e, t, d, r, l, a, o, n, c, s, g, C, h, A, I, B, p, E, b, w, m, f, y, u, v, S, x, D, G, L, M, R, O, z, F, k, H, V, W, J, T, Q, X, P, K, Z, j, U, Y, N, _, q, $, ii, ei, ti, di) { return { layout: "default", data: [{ html: '<h1 id="%E5%9F%BA%E7%A1%80%E6%8A%98%E7%BA%BF%E5%9B%BE" tabindex="-1">基础折线图</h1>\n<p>折线图主要用来展示数据项随着时间推移的趋势或变化。</p>\n<h2 id="%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E6%8A%98%E7%BA%BF%E5%9B%BE" tabindex="-1">最简单的折线图</h2>\n<p>如果我们想建立一个横坐标是类目型（category）、纵坐标是数值型（value）的折线图，我们可以使用这样的方式：</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICB0eXBlOiAnY2F0ZWdvcnknLAogICAgZGF0YTogWydBJywgJ0InLCAnQyddCiAgfSwKICB5QXhpczogewogICAgdHlwZTogJ3ZhbHVlJwogIH0sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsxMjAsIDIwMCwgMTUwXSwKICAgICAgdHlwZTogJ2xpbmUnCiAgICB9CiAgXQp9Ow\'" v-bind="{}" />\n<p>在这个例子中，我们通过 <code>xAxis</code> 将横坐标设为类目型，并指定了对应的值；通过 <code>type</code> 将 <code>yAxis</code> 的类型设定为数值型。在 <code>series</code> 中，我们将系列类型设为 <code>line</code>，并且通过 <code>data</code> 指定了折线图三个点的取值。这样，就能得到一个最简单的折线图了。</p>\n<blockquote>\n<p>这里 <code>xAxis</code> 和 <code>yAxis</code> 的 <code>type</code> 属性都可以隐去不写。因为坐标轴的默认类型是数值型，而 <code>xAxis</code> 指定了类目型的 <code>data</code>，所以 <code>ECharts</code> 也能识别出这是类目型的坐标轴。为了让大家更容易理解，我们特意写了 <code>type</code>。在实际的应用中，如果是 <code>\'value\'</code> 类型，也可以省略不写。</p>\n</blockquote>\n<h2 id="%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%AD%E7%9A%84%E6%8A%98%E7%BA%BF%E5%9B%BE" tabindex="-1">笛卡尔坐标系中的折线图</h2>\n<p>如果我们希望折线图在横坐标和纵坐标上都是连续的，即在笛卡尔坐标系中，应该如何实现呢？答案也很简单，只要把 <code>series</code> 的 <code>data</code> 每个数据用一个包含两个元素的数组表示就行了。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7fSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsKICAgICAgICBbMjAsIDEyMF0sCiAgICAgICAgWzUwLCAyMDBdLAogICAgICAgIFs0MCwgNTBdCiAgICAgIF0sCiAgICAgIHR5cGU6ICdsaW5lJwogICAgfQogIF0KfTs\'" v-bind="{}" />\n<h2 id="%E6%8A%98%E7%BA%BF%E5%9B%BE%E6%A0%B7%E5%BC%8F%E8%AE%BE%E7%BD%AE" tabindex="-1">折线图样式设置</h2>\n<h3 id="%E6%8A%98%E7%BA%BF%E7%9A%84%E6%A0%B7%E5%BC%8F" tabindex="-1">折线的样式</h3>\n<p>折线图中折线的样式可以通过 <code>lineStyle</code> 设置。可以为其指定颜色、线宽、折线类型、阴影、不透明度等等，具体的可以参考配置项手册 <a href="/option.html#series-line.lineStyle"><code>series.lineStyle</code></a> 了解。这里，我们以设置颜色（color）、线宽（width）和折线类型（type）为例说明。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICBkYXRhOiBbJ0EnLCAnQicsICdDJywgJ0QnLCAnRSddCiAgfSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsxMCwgMjIsIDI4LCAyMywgMTldLAogICAgICB0eXBlOiAnbGluZScsCiAgICAgIGxpbmVTdHlsZTogewogICAgICAgIG5vcm1hbDogewogICAgICAgICAgY29sb3I6ICdncmVlbicsCiAgICAgICAgICB3aWR0aDogNCwKICAgICAgICAgIHR5cGU6ICdkYXNoZWQnCiAgICAgICAgfQogICAgICB9CiAgICB9CiAgXQp9Ow\'" v-bind="{}" />\n<p>这里设置折线宽度时，数据点描边的宽度是不会跟着改变的，而应该在数据点的配置项中另外设置。</p>\n<h3 id="%E6%95%B0%E6%8D%AE%E7%82%B9%E7%9A%84%E6%A0%B7%E5%BC%8F" tabindex="-1">数据点的样式</h3>\n<p>数据点的样式可以通过 <a href="/option.html#series-line.itemStyle"><code>series.itemStyle</code></a> 指定填充颜色（color）、描边颜色（borderColor）、描边宽度（borderWidth）、描边类型（borderType）、阴影（shadowColor）、不透明度（opacity）等。与折线样式的设置十分相似，这里不再展开说明。</p>\n<h2 id="%E5%9C%A8%E6%95%B0%E6%8D%AE%E7%82%B9%E5%A4%84%E6%98%BE%E7%A4%BA%E6%95%B0%E5%80%BC" tabindex="-1">在数据点处显示数值</h2>\n<p>在系列中，这数据点的标签通过 <a href="/option.html#series-line.label"><code>series.label</code></a> 属性指定。如果将 <code>label</code> 下的 <code>show</code> 指定为<code>true</code>，则表示该数值默认时就显示；如果为 <code>false</code>，而 <a href="/option.html#series-line.emphasis.label.show"><code>series.emphasis.label.show</code></a> 为 <code>true</code>，则表示只有在鼠标移动到该数据时，才显示数值。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICBkYXRhOiBbJ0EnLCAnQicsICdDJywgJ0QnLCAnRSddCiAgfSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFsxMCwgMjIsIDI4LCAyMywgMTldLAogICAgICB0eXBlOiAnbGluZScsCiAgICAgIGxhYmVsOiB7CiAgICAgICAgc2hvdzogdHJ1ZSwKICAgICAgICBwb3NpdGlvbjogJ2JvdHRvbScsCiAgICAgICAgdGV4dFN0eWxlOiB7CiAgICAgICAgICBmb250U2l6ZTogMjAKICAgICAgICB9CiAgICAgIH0KICAgIH0KICBdCn07\'" v-bind="{}" />\n<h2 id="%E7%A9%BA%E6%95%B0%E6%8D%AE" tabindex="-1">空数据</h2>\n<p>在一个系列中，可能一个横坐标对应的取值是“空”的，将其设为 0 有时并不能满足我们的期望--空数据不应被其左右的数据连接。</p>\n<p>在 ECharts 中，我们使用字符串 <code>\'-\'</code> 表示空数据，这对其他系列的数据也是适用的。</p>\n<md-live lang="js" code="\'b3B0aW9uID0gewogIHhBeGlzOiB7CiAgICBkYXRhOiBbJ0EnLCAnQicsICdDJywgJ0QnLCAnRSddCiAgfSwKICB5QXhpczoge30sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIGRhdGE6IFswLCAyMiwgJy0nLCAyMywgMTldLAogICAgICB0eXBlOiAnbGluZScKICAgIH0KICBdCn07\'" v-bind="{}" />\n<blockquote>\n<p>注意区别这个例子中，“空”数据与取值为 0 的数据。</p>\n</blockquote>\n', postPath: "zh/how-to/chart-types/line/basic-line/index.html", title: "基础折线图 - 折线图 - 常用图表类型 - 应用篇" }], fetch: {}, error: null, state: { filled: !1, docVersion: "", ghVersion: "", visibleAffix: !1, homepage: {}, adBlocked: !1, focusMode: !1, posts: { zh: [{ title: "快速上手", dir: d }, { title: "入门篇", dir: r, children: [{ title: "获取 ECharts", dir: l }, { title: "在项目中引入 ECharts", dir: a }, { title: "资源列表", dir: o, draft: i }, { title: "寻求帮助", dir: n }, { title: "版本特性", dir: c, children: [{ title: "ECharts 5 特性介绍", dir: s }, { title: "v4 升级 v5 指南", dir: g }, { title: 5.2, dir: C }, { title: 5.3, dir: h }, { title: 5.4, dir: A }, { title: 5.5, dir: I }] }] }, { title: "概念篇", dir: B, children: [{ title: "图表容器及大小", dir: p }, { title: "配置项", dir: E, draft: i }, { title: "系列", dir: b, draft: i }, { title: "样式", dir: w }, { title: "数据集", dir: m }, { title: "数据转换", dir: f }, { title: "坐标系", dir: y, draft: i }, { title: "坐标轴", dir: u }, { title: "视觉映射", dir: t }, { title: "图例", dir: v }, { title: "事件与行为", dir: S }] }, { title: "应用篇", dir: x, children: [{ title: "常用图表类型", dir: D, children: [{ title: "柱状图", dir: "bar", children: [{ title: "基础柱状图", dir: G }, { title: "堆叠柱状图", dir: L }, { title: "动态排序柱状图", dir: M }, { title: "极坐标系柱状图", dir: R, draft: i }, { title: "阶梯瀑布图", dir: O }, { title: "视觉映射的柱状图", dir: t, draft: i }] }, { title: "折线图", dir: z, children: [{ title: "基础折线图", dir: F }, { title: "堆叠折线图", dir: k }, { title: "区域面积图", dir: H }, { title: "平滑曲线图", dir: V }, { title: "阶梯线图", dir: W }] }, { title: "饼图", dir: "pie", children: [{ title: "基础饼图", dir: J }, { title: "圆环图", dir: T }, { title: "南丁格尔图（玫瑰图）", dir: Q }] }, { title: "散点图", dir: X, children: [{ title: "基础散点图", dir: P }] }] }, { title: "移动端优化", dir: e, draft: i }, { title: "跨平台方案", dir: K, children: [{ title: "服务端渲染", dir: "server" }, { title: "微信小程序", dir: "wechat-app" }, { title: "百度智能小程序", dir: "baidu-app" }] }, { title: "数据处理", dir: "data", children: [{ title: "动态的异步数据", dir: Z }, { title: "数据下钻", dir: j, draft: i }] }, { title: "标签", dir: "label", children: [{ title: "富文本标签", dir: U }] }, { title: "动画", dir: Y, children: [{ title: "数据过渡动画", dir: N }] }, { title: "交互", dir: _, children: [{ title: "拖拽的实现", dir: "drag" }, { title: "多图联动", dir: q, draft: i }, { title: "智能指针吸附", dir: $ }] }] }, { title: "最佳实践", dir: ii, children: [{ title: "移动端优化", dir: e, draft: i }, { title: ei, dir: ti }, { title: "无障碍访问", dir: "aria" }] }, { title: "编辑本文档", dir: "meta", children: [{ title: "文档编辑指南", dir: di }] }], en: [{ title: "Get Started", dir: d }, { title: "Basics", dir: r, children: [{ title: "Download ECharts", dir: l }, { title: "Import ECharts", dir: a }, { title: "Resources", dir: o, draft: i }, { title: "Get Help", dir: n }, { title: "What's New", dir: c, children: [{ title: "ECharts 5 Features", dir: s }, { title: "Migration from v4 to v5", dir: g }, { title: 5.2, dir: C }, { title: 5.3, dir: h }, { title: 5.4, dir: A }, { title: 5.5, dir: I }] }] }, { title: "Concepts", dir: B, children: [{ title: "Chart Container", dir: p }, { title: "Chart Option", dir: E, draft: i }, { title: "Series", dir: b, draft: i }, { title: "Style", dir: w }, { title: "Dataset", dir: m }, { title: "Data Transform", dir: f }, { title: "Coordinate", dir: y, draft: i }, { title: "Axis", dir: u }, { title: "Visual Mapping", dir: t }, { title: "Legend", dir: v }, { title: "Event and Action", dir: S }] }, { title: "How To Guides", dir: x, children: [{ title: "Common Charts", dir: D, children: [{ title: "Bar", dir: "bar", children: [{ title: "Basic Bar", dir: G }, { title: "Stacked Bar", dir: L }, { title: "Bar Racing", dir: M }, { title: "Bar Polar", dir: R, draft: i }, { title: "Waterfall", dir: O }] }, { title: "Line", dir: z, children: [{ title: "Basic Line", dir: F }, { title: "Stacked Line", dir: k }, { title: "Area Chart", dir: H }, { title: "Smoothed Line", dir: V }, { title: "Step Line", dir: W }] }, { title: "Pie", dir: "pie", children: [{ title: "Basic Pie", dir: J }, { title: "Ring Style", dir: T }, { title: "Rose Style", dir: Q }] }, { title: "Scatter", dir: X, children: [{ title: "Basic Scatter", dir: P }] }] }, { title: "Mobile", dir: e, draft: i }, { title: "Cross Platform", dir: K, children: [{ title: "Server Side Rendering", dir: "server" }] }, { title: "Data", dir: "data", children: [{ title: "Dynamic Data", dir: Z }, { title: "Drilldown", dir: j, draft: i }] }, { title: "Label", dir: "label", children: [{ title: "Rich Text", dir: U }] }, { title: "Animation", dir: Y, children: [{ title: "Data Transition", dir: N }] }, { title: "Interaction", dir: _, children: [{ title: "Drag", dir: "drag" }, { title: "Connect", dir: q, draft: i }, { title: "Intelligent Pointer Snapping", dir: $ }] }] }, { title: "Best Practices", dir: ii, children: [{ title: "Mobile Optimization", dir: e, draft: i }, { title: ei, dir: ti }, { title: "Aria", dir: "aria" }] }, { title: "Edit Handbook", dir: "meta", children: [{ title: "Edit Guide", dir: di }] }] }, config: { routerBase: "/handbook", rootPath: "/handbook/", exampleViewPath: "/examples/${lang}/view.html?c=", exampleEditorPath: "/examples/${lang}/editor.html?c=", mainSitePath: "/", optionPath: "/option.html#", gitRepo: "apache/echarts-handbook" }, i18n: { routeParams: {} } }, serverRendered: i, routePath: "/zh/how-to/chart-types/line/basic-line/index.html", config: { _app: { basePath: "/handbook/", assetsPath: "/handbook/_nuxt/", cdnURL: null } } } }(!0, "mobile", "visual-map", "get-started", "basics", "download", "import", "resource", "help", "release-note", "v5-feature", "v5-upgrade-guide", "5-2-0", "5-3-0", "5-4-0", "5-5-0", "concepts", "chart-size", "options", "series", "style", "dataset", "data-transform", "coordinate", "axis", "legend", "event", "how-to", "chart-types", "basic-bar", "stacked-bar", "bar-race", "polar-bar", "waterfall", "line", "basic-line", "stacked-line", "area-line", "smooth-line", "step-line", "basic-pie", "doughnut", "rose", "scatter", "basic-scatter", "cross-platform", "dynamic-data", "drilldown", "rich-text", "animation", "transition", "interaction", "connect", "coarse-pointer", "best-practices", "Canvas vs. SVG", "canvas-vs-svg", "edit-guide")</script>
 
 
-  </noscript>
-  <script type="text/javascript">document.getElementById("nav-doc").className = "active"</script>
+
+
 
 
 </body>

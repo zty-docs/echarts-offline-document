@@ -652,21 +652,21 @@
     138: function (t, e) {
       const r = [
         [
-          { title: "快速上手", dir: "get-started" },
+          { title: "蹇€熶笂鎵�", dir: "get-started" },
           {
-            title: "入门篇",
+            title: "鍏ラ棬绡�",
             dir: "basics",
             children: [
-              { title: "获取 ECharts", dir: "download" },
-              { title: "在项目中引入 ECharts", dir: "import" },
-              { title: "资源列表", dir: "resource", draft: !0 },
-              { title: "寻求帮助", dir: "help" },
+              { title: "鑾峰彇 ECharts", dir: "download" },
+              { title: "鍦ㄩ」鐩腑寮曞叆 ECharts", dir: "import" },
+              { title: "璧勬簮鍒楄〃", dir: "resource", draft: !0 },
+              { title: "瀵绘眰甯姪", dir: "help" },
               {
-                title: "版本特性",
+                title: "鐗堟湰鐗规€�",
                 dir: "release-note",
                 children: [
-                  { title: "ECharts 5 特性介绍", dir: "v5-feature" },
-                  { title: "v4 升级 v5 指南", dir: "v5-upgrade-guide" },
+                  { title: "ECharts 5 鐗规€т粙缁�", dir: "v5-feature" },
+                  { title: "v4 鍗囩骇 v5 鎸囧崡", dir: "v5-upgrade-guide" },
                   { title: 5.2, dir: "5-2-0" },
                   { title: 5.3, dir: "5-3-0" },
                   { title: 5.4, dir: "5-4-0" },
@@ -676,106 +676,106 @@
             ],
           },
           {
-            title: "概念篇",
+            title: "姒傚康绡�",
             dir: "concepts",
             children: [
-              { title: "图表容器及大小", dir: "chart-size" },
-              { title: "配置项", dir: "options", draft: !0 },
-              { title: "系列", dir: "series", draft: !0 },
-              { title: "样式", dir: "style" },
-              { title: "数据集", dir: "dataset" },
-              { title: "数据转换", dir: "data-transform" },
-              { title: "坐标系", dir: "coordinate", draft: !0 },
-              { title: "坐标轴", dir: "axis" },
-              { title: "视觉映射", dir: "visual-map" },
-              { title: "图例", dir: "legend" },
-              { title: "事件与行为", dir: "event" },
+              { title: "鍥捐〃瀹瑰櫒鍙婂ぇ灏�", dir: "chart-size" },
+              { title: "閰嶇疆椤�", dir: "options", draft: !0 },
+              { title: "绯诲垪", dir: "series", draft: !0 },
+              { title: "鏍峰紡", dir: "style" },
+              { title: "鏁版嵁闆�", dir: "dataset" },
+              { title: "鏁版嵁杞崲", dir: "data-transform" },
+              { title: "鍧愭爣绯�", dir: "coordinate", draft: !0 },
+              { title: "鍧愭爣杞�", dir: "axis" },
+              { title: "瑙嗚鏄犲皠", dir: "visual-map" },
+              { title: "鍥句緥", dir: "legend" },
+              { title: "浜嬩欢涓庤涓�", dir: "event" },
             ],
           },
           {
-            title: "应用篇",
+            title: "搴旂敤绡�",
             dir: "how-to",
             children: [
               {
-                title: "常用图表类型",
+                title: "甯哥敤鍥捐〃绫诲瀷",
                 dir: "chart-types",
                 children: [
                   {
-                    title: "柱状图",
+                    title: "鏌辩姸鍥�",
                     dir: "bar",
                     children: [
-                      { title: "基础柱状图", dir: "basic-bar" },
-                      { title: "堆叠柱状图", dir: "stacked-bar" },
-                      { title: "动态排序柱状图", dir: "bar-race" },
-                      { title: "极坐标系柱状图", dir: "polar-bar", draft: !0 },
-                      { title: "阶梯瀑布图", dir: "waterfall" },
-                      { title: "视觉映射的柱状图", dir: "visual-map", draft: !0 },
+                      { title: "鍩虹鏌辩姸鍥�", dir: "basic-bar" },
+                      { title: "鍫嗗彔鏌辩姸鍥�", dir: "stacked-bar" },
+                      { title: "鍔ㄦ€佹帓搴忔煴鐘跺浘", dir: "bar-race" },
+                      { title: "鏋佸潗鏍囩郴鏌辩姸鍥�", dir: "polar-bar", draft: !0 },
+                      { title: "闃舵鐎戝竷鍥�", dir: "waterfall" },
+                      { title: "瑙嗚鏄犲皠鐨勬煴鐘跺浘", dir: "visual-map", draft: !0 },
                     ],
                   },
                   {
-                    title: "折线图",
+                    title: "鎶樼嚎鍥�",
                     dir: "line",
                     children: [
-                      { title: "基础折线图", dir: "basic-line" },
-                      { title: "堆叠折线图", dir: "stacked-line" },
-                      { title: "区域面积图", dir: "area-line" },
-                      { title: "平滑曲线图", dir: "smooth-line" },
-                      { title: "阶梯线图", dir: "step-line" },
+                      { title: "鍩虹鎶樼嚎鍥�", dir: "basic-line" },
+                      { title: "鍫嗗彔鎶樼嚎鍥�", dir: "stacked-line" },
+                      { title: "鍖哄煙闈㈢Н鍥�", dir: "area-line" },
+                      { title: "骞虫粦鏇茬嚎鍥�", dir: "smooth-line" },
+                      { title: "闃舵绾垮浘", dir: "step-line" },
                     ],
                   },
                   {
-                    title: "饼图",
+                    title: "楗煎浘",
                     dir: "pie",
                     children: [
-                      { title: "基础饼图", dir: "basic-pie" },
-                      { title: "圆环图", dir: "doughnut" },
-                      { title: "南丁格尔图（玫瑰图）", dir: "rose" },
+                      { title: "鍩虹楗煎浘", dir: "basic-pie" },
+                      { title: "鍦嗙幆鍥�", dir: "doughnut" },
+                      { title: "鍗椾竵鏍煎皵鍥撅紙鐜懓鍥撅級", dir: "rose" },
                     ],
                   },
-                  { title: "散点图", dir: "scatter", children: [{ title: "基础散点图", dir: "basic-scatter" }] },
+                  { title: "鏁ｇ偣鍥�", dir: "scatter", children: [{ title: "鍩虹鏁ｇ偣鍥�", dir: "basic-scatter" }] },
                 ],
               },
-              { title: "移动端优化", dir: "mobile", draft: !0 },
+              { title: "绉诲姩绔紭鍖�", dir: "mobile", draft: !0 },
               {
-                title: "跨平台方案",
+                title: "璺ㄥ钩鍙版柟妗�",
                 dir: "cross-platform",
                 children: [
-                  { title: "服务端渲染", dir: "server" },
-                  { title: "微信小程序", dir: "wechat-app" },
-                  { title: "百度智能小程序", dir: "baidu-app" },
+                  { title: "鏈嶅姟绔覆鏌�", dir: "server" },
+                  { title: "寰俊灏忕▼搴�", dir: "wechat-app" },
+                  { title: "鐧惧害鏅鸿兘灏忕▼搴�", dir: "baidu-app" },
                 ],
               },
               {
-                title: "数据处理",
+                title: "鏁版嵁澶勭悊",
                 dir: "data",
                 children: [
-                  { title: "动态的异步数据", dir: "dynamic-data" },
-                  { title: "数据下钻", dir: "drilldown", draft: !0 },
+                  { title: "鍔ㄦ€佺殑寮傛鏁版嵁", dir: "dynamic-data" },
+                  { title: "鏁版嵁涓嬮捇", dir: "drilldown", draft: !0 },
                 ],
               },
-              { title: "标签", dir: "label", children: [{ title: "富文本标签", dir: "rich-text" }] },
-              { title: "动画", dir: "animation", children: [{ title: "数据过渡动画", dir: "transition" }] },
+              { title: "鏍囩", dir: "label", children: [{ title: "瀵屾枃鏈爣绛�", dir: "rich-text" }] },
+              { title: "鍔ㄧ敾", dir: "animation", children: [{ title: "鏁版嵁杩囨浮鍔ㄧ敾", dir: "transition" }] },
               {
-                title: "交互",
+                title: "浜や簰",
                 dir: "interaction",
                 children: [
-                  { title: "拖拽的实现", dir: "drag" },
-                  { title: "多图联动", dir: "connect", draft: !0 },
-                  { title: "智能指针吸附", dir: "coarse-pointer" },
+                  { title: "鎷栨嫿鐨勫疄鐜�", dir: "drag" },
+                  { title: "澶氬浘鑱斿姩", dir: "connect", draft: !0 },
+                  { title: "鏅鸿兘鎸囬拡鍚搁檮", dir: "coarse-pointer" },
                 ],
               },
             ],
           },
           {
-            title: "最佳实践",
+            title: "鏈€浣冲疄璺�",
             dir: "best-practices",
             children: [
-              { title: "移动端优化", dir: "mobile", draft: !0 },
+              { title: "绉诲姩绔紭鍖�", dir: "mobile", draft: !0 },
               { title: "Canvas vs. SVG", dir: "canvas-vs-svg" },
-              { title: "无障碍访问", dir: "aria" },
+              { title: "鏃犻殰纰嶈闂�", dir: "aria" },
             ],
           },
-          { title: "编辑本文档", dir: "meta", children: [{ title: "文档编辑指南", dir: "edit-guide" }] },
+          { title: "缂栬緫鏈枃妗�", dir: "meta", children: [{ title: "鏂囨。缂栬緫鎸囧崡", dir: "edit-guide" }] },
         ],
       ];
       t.exports = r.length <= 1 ? r[0] : r;
@@ -2410,7 +2410,7 @@
                         t._m(12),
                         r("li", [
                           r("a", { attrs: { href: "https://github.com/apache/echarts", target: "_blank" } }, [
-                            t._v("源码（GitHub）"),
+                            t._v("婧愮爜锛圙itHub锛�"),
                             r(
                               "svg",
                               {
@@ -2443,7 +2443,7 @@
                         ]),
                         r("li", [
                           r("a", { attrs: { href: "https://github.com/apache/echarts/issues", target: "_blank" } }, [
-                            t._v("Issues（GitHub）"),
+                            t._v("Issues锛圙itHub锛�"),
                             r(
                               "svg",
                               {
@@ -2515,7 +2515,7 @@
                         t._m(14),
                         r("li", [
                           r("a", { attrs: { href: "https://www.apache.org/licenses/", target: "_blank" } }, [
-                            t._v("版权"),
+                            t._v("鐗堟潈"),
                             r(
                               "svg",
                               {
@@ -2548,7 +2548,7 @@
                         ]),
                         r("li", [
                           r("a", { attrs: { href: "https://www.apache.org/events/current-event", target: "_blank" } }, [
-                            t._v("活动"),
+                            t._v("娲诲姩"),
                             r(
                               "svg",
                               {
@@ -2581,7 +2581,7 @@
                         ]),
                         r("li", [
                           r("a", { attrs: { href: "https://www.apache.org/foundation/sponsorship.html", target: "_blank" } }, [
-                            t._v("捐赠"),
+                            t._v("鎹愯禒"),
                             r(
                               "svg",
                               {
@@ -2614,7 +2614,7 @@
                         ]),
                         r("li", [
                           r("a", { attrs: { href: "https://www.apache.org/foundation/thanks.html", target: "_blank" } }, [
-                            t._v("鸣谢"),
+                            t._v("楦ｈ阿"),
                             r(
                               "svg",
                               {
@@ -2685,7 +2685,7 @@
                 e = t.$createElement,
                 r = t._self._c || e;
               return r("li", { attrs: { id: "nav-index" } }, [
-                r("a", { attrs: { href: "https://echarts.apache.org/zh/index.html" } }, [t._v("首页")]),
+                r("a", { attrs: { href: "https://echarts.apache.org/zh/index.html" } }, [t._v("棣栭〉")]),
               ]);
             },
             function () {
@@ -2694,19 +2694,19 @@
                 r = t._self._c || e;
               return r("li", { staticClass: "dropdown", attrs: { id: "nav-doc" } }, [
                 r("a", { staticClass: "dropdown-toggle", attrs: { href: "#", "data-toggle": "dropdown" } }, [
-                  t._v("文档"),
+                  t._v("鏂囨。"),
                   r("b", { staticClass: "caret" }),
                 ]),
                 r("ul", { staticClass: "dropdown-menu" }, [
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/feature.html" } }, [t._v("特性")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/handbook/zh/get-started/" } }, [t._v("使用手册")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/feature.html" } }, [t._v("鐗规€�")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/handbook/zh/get-started/" } }, [t._v("浣跨敤鎵嬪唽")])]),
                   r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/api.html" } }, [t._v("API")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/option.html" } }, [t._v("配置项手册")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/changelog.html" } }, [t._v("版本记录")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/faq.html" } }, [t._v("常见问题")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/option.html" } }, [t._v("閰嶇疆椤规墜鍐�")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/changelog.html" } }, [t._v("鐗堟湰璁板綍")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/faq.html" } }, [t._v("甯歌闂")])]),
                   r("li", [
                     r("a", { attrs: { href: "https://echarts.apache.org/handbook/zh/basics/release-note/v5-upgrade-guide" } }, [
-                      t._v("v5 升级指南"),
+                      t._v("v5 鍗囩骇鎸囧崡"),
                     ]),
                   ]),
                 ]),
@@ -2718,13 +2718,13 @@
                 r = t._self._c || e;
               return r("li", { staticClass: "dropdown", attrs: { id: "nav-download" } }, [
                 r("a", { staticClass: "dropdown-toggle", attrs: { href: "#", "data-toggle": "dropdown" } }, [
-                  t._v("下载"),
+                  t._v("涓嬭浇"),
                   r("b", { staticClass: "caret" }),
                 ]),
                 r("ul", { staticClass: "dropdown-menu" }, [
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/download.html" } }, [t._v("下载")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/download-theme.html" } }, [t._v("主题下载")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/download-extension.html" } }, [t._v("扩展下载")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/download.html" } }, [t._v("涓嬭浇")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/download-theme.html" } }, [t._v("涓婚涓嬭浇")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/download-extension.html" } }, [t._v("鎵╁睍涓嬭浇")])]),
                 ]),
               ]);
             },
@@ -2733,7 +2733,7 @@
                 e = t.$createElement,
                 r = t._self._c || e;
               return r("li", { attrs: { id: "nav-examples" } }, [
-                r("a", { attrs: { href: "https://echarts.apache.org/examples/zh/index.html" } }, [t._v("示例")]),
+                r("a", { attrs: { href: "https://echarts.apache.org/examples/zh/index.html" } }, [t._v("绀轰緥")]),
               ]);
             },
             function () {
@@ -2742,14 +2742,14 @@
                 r = t._self._c || e;
               return r("li", { attrs: { id: "nav-resources" } }, [
                 r("a", { staticClass: "dropdown-toggle", attrs: { href: "#", "data-toggle": "dropdown" } }, [
-                  t._v("资源"),
+                  t._v("璧勬簮"),
                   r("b", { staticClass: "caret" }),
                 ]),
                 r("ul", { staticClass: "dropdown-menu" }, [
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/spreadsheet.html" } }, [t._v("表格工具")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/theme-builder.html" } }, [t._v("主题构建工具")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/cheat-sheet.html" } }, [t._v("术语速查手册")])]),
-                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/resources.html" } }, [t._v("更多资源")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/spreadsheet.html" } }, [t._v("琛ㄦ牸宸ュ叿")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/theme-builder.html" } }, [t._v("涓婚鏋勫缓宸ュ叿")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/cheat-sheet.html" } }, [t._v("鏈閫熸煡鎵嬪唽")])]),
+                  r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/resources.html" } }, [t._v("鏇村璧勬簮")])]),
                 ]),
               ]);
             },
@@ -2758,7 +2758,7 @@
                 e = t.$createElement,
                 r = t._self._c || e;
               return r("a", { staticClass: "dropdown-toggle", attrs: { href: "#", "data-toggle": "dropdown" } }, [
-                t._v("社区"),
+                t._v("绀惧尯"),
                 r("b", { staticClass: "caret" }),
               ]);
             },
@@ -2766,37 +2766,37 @@
               var t = this,
                 e = t.$createElement,
                 r = t._self._c || e;
-              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/events.html" } }, [t._v("活动")])]);
+              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/events.html" } }, [t._v("娲诲姩")])]);
             },
             function () {
               var t = this,
                 e = t.$createElement,
                 r = t._self._c || e;
-              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/committers.html" } }, [t._v("贡献者列表")])]);
+              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/committers.html" } }, [t._v("璐＄尞鑰呭垪琛�")])]);
             },
             function () {
               var t = this,
                 e = t.$createElement,
                 r = t._self._c || e;
-              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/maillist.html" } }, [t._v("邮件列表")])]);
+              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/maillist.html" } }, [t._v("閭欢鍒楄〃")])]);
             },
             function () {
               var t = this,
                 e = t.$createElement,
                 r = t._self._c || e;
-              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/contributing.html" } }, [t._v("如何贡献")])]);
+              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/contributing.html" } }, [t._v("濡備綍璐＄尞")])]);
             },
             function () {
               var t = this,
                 e = t.$createElement,
                 r = t._self._c || e;
-              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/dependencies.html" } }, [t._v("依赖项")])]);
+              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/dependencies.html" } }, [t._v("渚濊禆椤�")])]);
             },
             function () {
               var t = this,
                 e = t.$createElement,
                 r = t._self._c || e;
-              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/coding-standard.html" } }, [t._v("代码规范")])]);
+              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/coding-standard.html" } }, [t._v("浠ｇ爜瑙勮寖")])]);
             },
             function () {
               var t = this,
@@ -2811,7 +2811,7 @@
               var t = this,
                 e = t.$createElement,
                 r = t._self._c || e;
-              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/security.html" } }, [t._v("安全")])]);
+              return r("li", [r("a", { attrs: { href: "https://echarts.apache.org/zh/security.html" } }, [t._v("瀹夊叏")])]);
             },
             function () {
               var t = this,
@@ -3267,7 +3267,7 @@
                 r = t._self._c || e;
               return r("ul", { staticClass: "nav navbar-nav navbar-right" }, [
                 r("li", { attrs: { id: "nav-homeen" } }, [
-                  r("a", { attrs: { href: "javascript:;", onclick: "changeLang('zh')" } }, [t._v("中文")]),
+                  r("a", { attrs: { href: "javascript:;", onclick: "changeLang('zh')" } }, [t._v("涓枃")]),
                 ]),
               ]);
             },
@@ -3313,7 +3313,7 @@
             head: function () {
               var t = this.$i18n.locale,
                 e = "zh" === t,
-                r = e ? "使用手册" : "Handbook";
+                r = e ? "浣跨敤鎵嬪唽" : "Handbook";
               return {
                 titleTemplate: function (t) {
                   return "".concat(t ? t + " - " : "").concat(r, " - Apache ECharts");
@@ -3335,30 +3335,41 @@
                   [
                     {
                       rel: "stylesheet",
-                      href: e ? "/css/bootstrap.min.css" : "/css/bootstrap.min.css",
+                      href: e
+                        ? "https://lib.baomitu.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css"
+                        : "https://fastly.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css",
                     },
                     { rel: "stylesheet", href: "https://echarts.apache.org/".concat(t, "/css/main.css") },
                     {
                       rel: "stylesheet",
-                      href: e ? "https://lib.baomitu.com/docsearch.js/2.6.3/docsearch.min.css" : "/examples/css/docsearch.min.css",
+                      href: e
+                        ? "https://lib.baomitu.com/docsearch.js/2.6.3/docsearch.min.css"
+                        : "https://fastly.jsdelivr.net/npm/docsearch.js@2.6.3/dist/cdn/docsearch.min.css",
                     },
                   ]
                 ),
                 script: [
                   {
-                    src: e ? "/js/jquery.min.js" : "/examples/js/jquery.min.js",
+                    src: e
+                      ? "https://registry.npmmirror.com/jquery/3.7.1/files/dist/jquery.min.js"
+                      : "https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js",
                   },
                   {
-                    src: e ? "/js/bootstrap.min.js" : "/js/bootstrap.min.js",
+                    src: e
+                      ? "https://lib.baomitu.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"
+                      : "https://fastly.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js",
                   },
                   {
-                    src: e ? "https://lib.baomitu.com/docsearch.js/2.6.3/docsearch.min.js" : "/examples/js/docsearch.min.js",
+                    src: e
+                      ? "https://lib.baomitu.com/docsearch.js/2.6.3/docsearch.min.js"
+                      : "https://fastly.jsdelivr.net/npm/docsearch.js@2.6.3/dist/cdn/docsearch.min.js",
                   },
                 ],
                 noscript: [
                   {
                     body: !0,
-                    innerHTML: "",
+                    innerHTML:
+                      '<div class="no-script"><strong>寰堟姳姝夛紝Apache ECharts 缃戠珯闇€瑕佸惎鐢� JavaScript 鎵嶈兘姝ｅ父杩愯銆�</strong></div>',
                   },
                 ],
                 __dangerouslyDisableSanitizers: ["noscript"],
@@ -3681,11 +3692,11 @@
                 editInGithub: "Edit this page on GitHub",
               },
               zh: {
-                inThisPage: "本页目录",
-                searchHandbook: "搜索手册",
-                contributorsWithThisDocument: "本文贡献者",
-                editInThisDocumentTip: "编辑本文",
-                editInGithub: "在 GitHub 上编辑本页",
+                inThisPage: "鏈〉鐩綍",
+                searchHandbook: "鎼滅储鎵嬪唽",
+                contributorsWithThisDocument: "鏈枃璐＄尞鑰�",
+                editInThisDocumentTip: "缂栬緫鏈枃",
+                editInGithub: "鍦� GitHub 涓婄紪杈戞湰椤�",
               },
             },
           },
