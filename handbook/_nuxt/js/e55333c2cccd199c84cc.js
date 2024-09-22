@@ -3358,8 +3358,7 @@
                 noscript: [
                   {
                     body: !0,
-                    innerHTML:
-                      '<div class="no-script"><strong>很抱歉，Apache ECharts 网站需要启用 JavaScript 才能正常运行。</strong></div>',
+                    innerHTML: "",
                   },
                 ],
                 __dangerouslyDisableSanitizers: ["noscript"],

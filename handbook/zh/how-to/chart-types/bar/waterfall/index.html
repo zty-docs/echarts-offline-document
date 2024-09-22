@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>阶梯瀑布图 - 柱状图 - 常用图表类型 - 应用篇 - 使用手册 - Apache ECharts</title>
   <meta data-n-head="ssr" data-hid="docsearch:language" name="docsearch:language" content="zh">
-  <base href="../../../handbook/">
+
   <link data-n-head="ssr" rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
 
@@ -112,28 +112,28 @@
                             class="title">样式</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/dataset" class="nav-link"><span
-                            class="title">数据集</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/dataset/index.html"
+                          class="nav-link"><span class="title">数据集</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/data-transform" class="nav-link"><span
-                            class="title">数据转换</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/data-transform/index.html"
+                          class="nav-link"><span class="title">数据转换</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/axis" class="nav-link"><span
-                            class="title">坐标轴</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/axis/index.html"
+                          class="nav-link"><span class="title">坐标轴</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/visual-map" class="nav-link"><span
-                            class="title">视觉映射</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/visual-map/index.html"
+                          class="nav-link"><span class="title">视觉映射</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/legend" class="nav-link"><span
-                            class="title">图例</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/legend/index.html"
+                          class="nav-link"><span class="title">图例</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/event" class="nav-link"><span
-                            class="title">事件与行为</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/event/index.html"
+                          class="nav-link"><span class="title">事件与行为</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
                     </ul>
@@ -282,12 +282,12 @@
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">最佳实践</span></div>
                     <ul class="nav bd-sidenav level1"><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/canvas-vs-svg"
+                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/canvas-vs-svg/index.html"
                           class="nav-link"><span class="title">Canvas vs. SVG</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/aria" class="nav-link"><span
-                            class="title">无障碍访问</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/aria/index.html"
+                          class="nav-link"><span class="title">无障碍访问</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
                     </ul>
@@ -295,8 +295,8 @@
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">编辑本文档</span></div>
                     <ul class="nav bd-sidenav level1">
-                      <li class="nav-item"><a href="../../../handbook/zh/meta/edit-guide" class="nav-link"><span
-                            class="title">文档编辑指南</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/meta/edit-guide/index.html"
+                          class="nav-link"><span class="title">文档编辑指南</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
                     </ul>
@@ -549,13 +549,8 @@ option <span class="token operator">=</span> <span class="token punctuation">{</
     </div>
   </div>
   <script>window.__NUXT__ = function (i, t, e, r, d, l, a, g, C, o, I, c, n, s, A, h, p, w, b, B, m, G, S, f, H, Z, K, L, y, u, D, R, X, M, T, v, V, z, E, k, N, Y, x, J, O, P, F, W, U, j, Q, _, $, q, ii, ti, ei, ri) { return { layout: "default", data: [{ html: '<h1 id="%E9%98%B6%E6%A2%AF%E7%80%91%E5%B8%83%E5%9B%BE" tabindex="-1">阶梯瀑布图</h1>\n<p>Apache ECharts 中并没有单独的瀑布图类型，但是我们可以使用堆叠的柱状图模拟该效果。</p>\n<p>假设数据数组中的值是表示对前一个值的增减：</p>\n<md-code-block lang="js" code="\'dmFyIGRhdGEgPSBbOTAwLCAzNDUsIDM5MywgLTEwOCwgLTE1NCwgMTM1LCAxNzgsIDI4NiwgLTExOSwgLTM2MSwgLTIwM107\'" line-highlights="\'\'" />\n<p>也就是第一个数据是 <code>900</code>，第二个数据 <code>345</code> 表示的是在 <code>900</code> 的基础上增加了 <code>345</code>……将这个数据展示为阶梯瀑布图时，我们可以使用三个系列：第一个是不可交互的透明系列，用来实现“悬空”的柱状图效果；第二个系列用来表示正数；第三个系列用来表示负数。</p>\n<md-live lang="js" code="\'dmFyIGRhdGEgPSBbOTAwLCAzNDUsIDM5MywgLTEwOCwgLTE1NCwgMTM1LCAxNzgsIDI4NiwgLTExOSwgLTM2MSwgLTIwM107CnZhciBoZWxwID0gW107CnZhciBwb3NpdGl2ZSA9IFtdOwp2YXIgbmVnYXRpdmUgPSBbXTsKZm9yICh2YXIgaSA9IDAsIHN1bSA9IDA7IGkgPCBkYXRhLmxlbmd0aDsgKytpKSB7CiAgaWYgKGRhdGFbaV0gPj0gMCkgewogICAgcG9zaXRpdmUucHVzaChkYXRhW2ldKTsKICAgIG5lZ2F0aXZlLnB1c2goJy0nKTsKICB9IGVsc2UgewogICAgcG9zaXRpdmUucHVzaCgnLScpOwogICAgbmVnYXRpdmUucHVzaCgtZGF0YVtpXSk7CiAgfQoKICBpZiAoaSA9PT0gMCkgewogICAgaGVscC5wdXNoKDApOwogIH0gZWxzZSB7CiAgICBzdW0gKz0gZGF0YVtpIC0gMV07CiAgICBpZiAoZGF0YVtpXSA8IDApIHsKICAgICAgaGVscC5wdXNoKHN1bSArIGRhdGFbaV0pOwogICAgfSBlbHNlIHsKICAgICAgaGVscC5wdXNoKHN1bSk7CiAgICB9CiAgfQp9CgpvcHRpb24gPSB7CiAgdGl0bGU6IHsKICAgIHRleHQ6ICdXYXRlcmZhbGwnCiAgfSwKICBncmlkOiB7CiAgICBsZWZ0OiAnMyUnLAogICAgcmlnaHQ6ICc0JScsCiAgICBib3R0b206ICczJScsCiAgICBjb250YWluTGFiZWw6IHRydWUKICB9LAogIHhBeGlzOiB7CiAgICB0eXBlOiAnY2F0ZWdvcnknLAogICAgc3BsaXRMaW5lOiB7IHNob3c6IGZhbHNlIH0sCiAgICBkYXRhOiAoZnVuY3Rpb24oKSB7CiAgICAgIHZhciBsaXN0ID0gW107CiAgICAgIGZvciAodmFyIGkgPSAxOyBpIDw9IDExOyBpKyspIHsKICAgICAgICBsaXN0LnB1c2goJ09jdC8nICsgaSk7CiAgICAgIH0KICAgICAgcmV0dXJuIGxpc3Q7CiAgICB9KSgpCiAgfSwKICB5QXhpczogewogICAgdHlwZTogJ3ZhbHVlJwogIH0sCiAgc2VyaWVzOiBbCiAgICB7CiAgICAgIHR5cGU6ICdiYXInLAogICAgICBzdGFjazogJ2FsbCcsCiAgICAgIGl0ZW1TdHlsZTogewogICAgICAgIG5vcm1hbDogewogICAgICAgICAgYmFyQm9yZGVyQ29sb3I6ICdyZ2JhKDAsMCwwLDApJywKICAgICAgICAgIGNvbG9yOiAncmdiYSgwLDAsMCwwKScKICAgICAgICB9LAogICAgICAgIGVtcGhhc2lzOiB7CiAgICAgICAgICBiYXJCb3JkZXJDb2xvcjogJ3JnYmEoMCwwLDAsMCknLAogICAgICAgICAgY29sb3I6ICdyZ2JhKDAsMCwwLDApJwogICAgICAgIH0KICAgICAgfSwKICAgICAgZGF0YTogaGVscAogICAgfSwKICAgIHsKICAgICAgbmFtZTogJ3Bvc2l0aXZlJywKICAgICAgdHlwZTogJ2JhcicsCiAgICAgIHN0YWNrOiAnYWxsJywKICAgICAgZGF0YTogcG9zaXRpdmUKICAgIH0sCiAgICB7CiAgICAgIG5hbWU6ICduZWdhdGl2ZScsCiAgICAgIHR5cGU6ICdiYXInLAogICAgICBzdGFjazogJ2FsbCcsCiAgICAgIGRhdGE6IG5lZ2F0aXZlLAogICAgICBpdGVtU3R5bGU6IHsKICAgICAgICBjb2xvcjogJyNmMzMnCiAgICAgIH0KICAgIH0KICBdCn07\'" v-bind="{}" />\n', postPath: "zh/how-to/chart-types/bar/waterfall", title: "阶梯瀑布图 - 柱状图 - 常用图表类型 - 应用篇" }], fetch: {}, error: null, state: { filled: !1, docVersion: "", ghVersion: "", visibleAffix: !1, homepage: {}, adBlocked: !1, focusMode: !1, posts: { zh: [{ title: "快速上手", dir: r }, { title: "入门篇", dir: d, children: [{ title: "获取 ECharts", dir: l }, { title: "在项目中引入 ECharts", dir: a }, { title: "资源列表", dir: g, draft: i }, { title: "寻求帮助", dir: C }, { title: "版本特性", dir: o, children: [{ title: "ECharts 5 特性介绍", dir: I }, { title: "v4 升级 v5 指南", dir: c }, { title: 5.2, dir: n }, { title: 5.3, dir: s }, { title: 5.4, dir: A }, { title: 5.5, dir: h }] }] }, { title: "概念篇", dir: p, children: [{ title: "图表容器及大小", dir: w }, { title: "配置项", dir: b, draft: i }, { title: "系列", dir: B, draft: i }, { title: "样式", dir: m }, { title: "数据集", dir: G }, { title: "数据转换", dir: S }, { title: "坐标系", dir: f, draft: i }, { title: "坐标轴", dir: H }, { title: "视觉映射", dir: e }, { title: "图例", dir: Z }, { title: "事件与行为", dir: K }] }, { title: "应用篇", dir: L, children: [{ title: "常用图表类型", dir: y, children: [{ title: "柱状图", dir: "bar", children: [{ title: "基础柱状图", dir: u }, { title: "堆叠柱状图", dir: D }, { title: "动态排序柱状图", dir: R }, { title: "极坐标系柱状图", dir: X, draft: i }, { title: "阶梯瀑布图", dir: M }, { title: "视觉映射的柱状图", dir: e, draft: i }] }, { title: "折线图", dir: T, children: [{ title: "基础折线图", dir: v }, { title: "堆叠折线图", dir: V }, { title: "区域面积图", dir: z }, { title: "平滑曲线图", dir: E }, { title: "阶梯线图", dir: k }] }, { title: "饼图", dir: "pie", children: [{ title: "基础饼图", dir: N }, { title: "圆环图", dir: Y }, { title: "南丁格尔图（玫瑰图）", dir: x }] }, { title: "散点图", dir: J, children: [{ title: "基础散点图", dir: O }] }] }, { title: "移动端优化", dir: t, draft: i }, { title: "跨平台方案", dir: P, children: [{ title: "服务端渲染", dir: "server" }, { title: "微信小程序", dir: "wechat-app" }, { title: "百度智能小程序", dir: "baidu-app" }] }, { title: "数据处理", dir: "data", children: [{ title: "动态的异步数据", dir: F }, { title: "数据下钻", dir: W, draft: i }] }, { title: "标签", dir: "label", children: [{ title: "富文本标签", dir: U }] }, { title: "动画", dir: j, children: [{ title: "数据过渡动画", dir: Q }] }, { title: "交互", dir: _, children: [{ title: "拖拽的实现", dir: "drag" }, { title: "多图联动", dir: $, draft: i }, { title: "智能指针吸附", dir: q }] }] }, { title: "最佳实践", dir: ii, children: [{ title: "移动端优化", dir: t, draft: i }, { title: ti, dir: ei }, { title: "无障碍访问", dir: "aria" }] }, { title: "编辑本文档", dir: "meta", children: [{ title: "文档编辑指南", dir: ri }] }], en: [{ title: "Get Started", dir: r }, { title: "Basics", dir: d, children: [{ title: "Download ECharts", dir: l }, { title: "Import ECharts", dir: a }, { title: "Resources", dir: g, draft: i }, { title: "Get Help", dir: C }, { title: "What's New", dir: o, children: [{ title: "ECharts 5 Features", dir: I }, { title: "Migration from v4 to v5", dir: c }, { title: 5.2, dir: n }, { title: 5.3, dir: s }, { title: 5.4, dir: A }, { title: 5.5, dir: h }] }] }, { title: "Concepts", dir: p, children: [{ title: "Chart Container", dir: w }, { title: "Chart Option", dir: b, draft: i }, { title: "Series", dir: B, draft: i }, { title: "Style", dir: m }, { title: "Dataset", dir: G }, { title: "Data Transform", dir: S }, { title: "Coordinate", dir: f, draft: i }, { title: "Axis", dir: H }, { title: "Visual Mapping", dir: e }, { title: "Legend", dir: Z }, { title: "Event and Action", dir: K }] }, { title: "How To Guides", dir: L, children: [{ title: "Common Charts", dir: y, children: [{ title: "Bar", dir: "bar", children: [{ title: "Basic Bar", dir: u }, { title: "Stacked Bar", dir: D }, { title: "Bar Racing", dir: R }, { title: "Bar Polar", dir: X, draft: i }, { title: "Waterfall", dir: M }] }, { title: "Line", dir: T, children: [{ title: "Basic Line", dir: v }, { title: "Stacked Line", dir: V }, { title: "Area Chart", dir: z }, { title: "Smoothed Line", dir: E }, { title: "Step Line", dir: k }] }, { title: "Pie", dir: "pie", children: [{ title: "Basic Pie", dir: N }, { title: "Ring Style", dir: Y }, { title: "Rose Style", dir: x }] }, { title: "Scatter", dir: J, children: [{ title: "Basic Scatter", dir: O }] }] }, { title: "Mobile", dir: t, draft: i }, { title: "Cross Platform", dir: P, children: [{ title: "Server Side Rendering", dir: "server" }] }, { title: "Data", dir: "data", children: [{ title: "Dynamic Data", dir: F }, { title: "Drilldown", dir: W, draft: i }] }, { title: "Label", dir: "label", children: [{ title: "Rich Text", dir: U }] }, { title: "Animation", dir: j, children: [{ title: "Data Transition", dir: Q }] }, { title: "Interaction", dir: _, children: [{ title: "Drag", dir: "drag" }, { title: "Connect", dir: $, draft: i }, { title: "Intelligent Pointer Snapping", dir: q }] }] }, { title: "Best Practices", dir: ii, children: [{ title: "Mobile Optimization", dir: t, draft: i }, { title: ti, dir: ei }, { title: "Aria", dir: "aria" }] }, { title: "Edit Handbook", dir: "meta", children: [{ title: "Edit Guide", dir: ri }] }] }, config: { routerBase: "/handbook", rootPath: "/handbook/", exampleViewPath: "/examples/${lang}/view.html?c=", exampleEditorPath: "/examples/${lang}/editor.html?c=", mainSitePath: "/", optionPath: "/option.html#", gitRepo: "apache/echarts-handbook" }, i18n: { routeParams: {} } }, serverRendered: i, routePath: "/zh/how-to/chart-types/bar/waterfall", config: { _app: { basePath: "/handbook/", assetsPath: "/handbook/_nuxt/", cdnURL: null } } } }(!0, "mobile", "visual-map", "get-started", "basics", "download", "import", "resource", "help", "release-note", "v5-feature", "v5-upgrade-guide", "5-2-0", "5-3-0", "5-4-0", "5-5-0", "concepts", "chart-size", "options", "series", "style", "dataset", "data-transform", "coordinate", "axis", "legend", "event", "how-to", "chart-types", "basic-bar", "stacked-bar", "bar-race", "polar-bar", "waterfall", "line", "basic-line", "stacked-line", "area-line", "smooth-line", "step-line", "basic-pie", "doughnut", "rose", "scatter", "basic-scatter", "cross-platform", "dynamic-data", "drilldown", "rich-text", "animation", "transition", "interaction", "connect", "coarse-pointer", "best-practices", "Canvas vs. SVG", "canvas-vs-svg", "edit-guide")</script>
-  <script src="/handbook/_nuxt/c8269cf.js" defer></script>
-  <script src="/handbook/_nuxt/js/d12432e4d91f0b620f9a.js" defer></script>
-  <script src="/handbook/_nuxt/js/9d86a6602b3f4dd6c979.js" defer></script>
-  <script src="/handbook/_nuxt/js/3e4308adb1d2787dfe30.js" defer></script>
-  <script src="/handbook/_nuxt/js/5678ff13ab4729372a2d.js" defer></script>
-  <script src="/handbook/_nuxt/js/e55333c2cccd199c84cc.js" defer></script><noscript data-n-head="ssr" data-body="true">
-    <div class="no-script"><strong>很抱歉，Apache ECharts 网站需要启用 JavaScript 才能正常运行。</strong></div>
+
+
   </noscript>
   <script type="text/javascript">document.getElementById("nav-doc").className = "active"</script>
 

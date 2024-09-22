@@ -272,7 +272,7 @@ window.__EC_DOC_option = {
     ],
   },
   dataset: {
-    desc: '<p>ECharts 4 开始支持了 <code class="codespan">数据集</code>（<code class="codespan">dataset</code>）组件用于单独的数据集声明，从而数据可以单独管理，被多个组件复用，并且可以自由指定数据到视觉的映射。这在不少场景下能带来使用上的方便。</p>\n<p>关于 <code class="codespan">dataset</code> 的详情，请参见<a href="https://echarts.apache.org/handbook/zh/concepts/dataset" target="_blank">教程</a>。</p>\n',
+    desc: '<p>ECharts 4 开始支持了 <code class="codespan">数据集</code>（<code class="codespan">dataset</code>）组件用于单独的数据集声明，从而数据可以单独管理，被多个组件复用，并且可以自由指定数据到视觉的映射。这在不少场景下能带来使用上的方便。</p>\n<p>关于 <code class="codespan">dataset</code> 的详情，请参见<a href="https://echarts.apache.org/handbook/zh/concepts/dataset/index.html" target="_blank">教程</a>。</p>\n',
   },
   aria: {
     desc: '<p>W3C 制定了无障碍富互联网应用规范集（<a href="https://www.w3.org/WAI/intro/aria" target="_blank">WAI-ARIA</a>，the Accessible Rich Internet Applications Suite），致力于使得网页内容和网页应用能够被更多残障人士访问。Apache ECharts 4 遵从这一规范，支持自动根据图表配置项智能生成描述，使得盲人可以在朗读设备的帮助下了解图表内容，让图表可以被更多人群访问。除此之外，Apache ECharts 5 新增支持贴花纹理，作为颜色的辅助表达，进一步用以区分数据。</p>\n<p>默认关闭，需要通过将 <a href="#aria.enabled">aria.enabled</a> 设置为 <code class="codespan">true</code> 开启。</p>\n',

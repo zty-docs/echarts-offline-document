@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>微信小程序 - 跨平台方案 - 应用篇 - 使用手册 - Apache ECharts</title>
   <meta data-n-head="ssr" data-hid="docsearch:language" name="docsearch:language" content="zh">
-  <base href="../../../handbook/">
+
   <link data-n-head="ssr" rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
 
@@ -112,28 +112,28 @@
                             class="title">样式</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/dataset" class="nav-link"><span
-                            class="title">数据集</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/dataset/index.html"
+                          class="nav-link"><span class="title">数据集</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/data-transform" class="nav-link"><span
-                            class="title">数据转换</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/data-transform/index.html"
+                          class="nav-link"><span class="title">数据转换</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/axis" class="nav-link"><span
-                            class="title">坐标轴</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/axis/index.html"
+                          class="nav-link"><span class="title">坐标轴</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/visual-map" class="nav-link"><span
-                            class="title">视觉映射</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/visual-map/index.html"
+                          class="nav-link"><span class="title">视觉映射</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/legend" class="nav-link"><span
-                            class="title">图例</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/legend/index.html"
+                          class="nav-link"><span class="title">图例</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/concepts/event" class="nav-link"><span
-                            class="title">事件与行为</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/concepts/event/index.html"
+                          class="nav-link"><span class="title">事件与行为</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
                     </ul>
@@ -282,12 +282,12 @@
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">最佳实践</span></div>
                     <ul class="nav bd-sidenav level1"><!---->
-                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/canvas-vs-svg"
+                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/canvas-vs-svg/index.html"
                           class="nav-link"><span class="title">Canvas vs. SVG</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
-                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/aria" class="nav-link"><span
-                            class="title">无障碍访问</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/best-practices/aria/index.html"
+                          class="nav-link"><span class="title">无障碍访问</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
                     </ul>
@@ -295,8 +295,8 @@
                   <li class="nav-item">
                     <div class="nav-link"><span class="title">编辑本文档</span></div>
                     <ul class="nav bd-sidenav level1">
-                      <li class="nav-item"><a href="../../../handbook/zh/meta/edit-guide" class="nav-link"><span
-                            class="title">文档编辑指南</span></a>
+                      <li class="nav-item"><a href="../../../handbook/zh/meta/edit-guide/index.html"
+                          class="nav-link"><span class="title">文档编辑指南</span></a>
                         <ul class="nav bd-sidenav level2" style="display:none"></ul>
                       </li>
                     </ul>
@@ -363,13 +363,8 @@
     </div>
   </div>
   <script>window.__NUXT__ = function (t, i, e, r, d, a, l, n, o, c, h, s, p, f, m, E, g, b, u, B, C, v, w, A, x, P, S, D, k, R, y, F, L, _, z, G, M, T, V, H, I, j, q, N, O, U, W, $, X, J, K, Q, Y, Z, tt, it, et, rt) { return { layout: "default", data: [{ html: '<h1 id="%E5%9C%A8%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%AD%E4%BD%BF%E7%94%A8-echarts" tabindex="-1">在微信小程序中使用 ECharts</h1>\n<p><a href="https://github.com/ecomfe/echarts-for-weixin">echarts-for-weixin</a> 项目提供了一个小程序组件，用这种方式可以方便地使用 ECharts。</p>\n<h2 id="%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F" tabindex="-1">使用方式</h2>\n<ol>\n<li>下载该项目</li>\n<li>如有必要，将 <code>ec-canvas</code> 目录下的 <code>echarts.js</code> 替换为最新版的 ECharts。如果希望减小包体积大小，可以使用<a href="//builder.html">自定义构建</a>生成并替换 <code>echarts.js</code></li>\n<li><code>pages</code> 目录下是使用的示例文件，可以作为参考，或者删除不需要的页面。</li>\n</ol>\n<p>更详细的说明请参见 <a href="https://github.com/ecomfe/echarts-for-weixin">echarts-for-weixin</a> 项目。</p>\n<h2 id="%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" tabindex="-1">注意事项</h2>\n<p>最新版的 ECharts 微信小程序支持微信 Canvas 2d，当用户的基础库版本 &gt;= 2.9.0 且没有设置 <code>force-use-old-canvas=&quot;true&quot;</code> 的情况下，使用新的 Canvas 2d（默认）。</p>\n<p>使用新的 Canvas 2d 可以提升渲染性能，解决非同层渲染问题，强烈建议开启。</p>\n<p>更详细的说明请参见 <a href="https://github.com/ecomfe/echarts-for-weixin#canvas-2d-%E7%89%88%E6%9C%AC%E8%A6%81%E6%B1%82">Canvas 2d 版本要求</a>。</p>\n', postPath: "zh/how-to/cross-platform/wechat-app", title: "微信小程序 - 跨平台方案 - 应用篇" }], fetch: {}, error: null, state: { filled: !1, docVersion: "", ghVersion: "", visibleAffix: !1, homepage: {}, adBlocked: !1, focusMode: !1, posts: { zh: [{ title: "快速上手", dir: r }, { title: "入门篇", dir: d, children: [{ title: "获取 ECharts", dir: a }, { title: "在项目中引入 ECharts", dir: l }, { title: "资源列表", dir: n, draft: t }, { title: "寻求帮助", dir: o }, { title: "版本特性", dir: c, children: [{ title: "ECharts 5 特性介绍", dir: h }, { title: "v4 升级 v5 指南", dir: s }, { title: 5.2, dir: p }, { title: 5.3, dir: f }, { title: 5.4, dir: m }, { title: 5.5, dir: E }] }] }, { title: "概念篇", dir: g, children: [{ title: "图表容器及大小", dir: b }, { title: "配置项", dir: u, draft: t }, { title: "系列", dir: B, draft: t }, { title: "样式", dir: C }, { title: "数据集", dir: v }, { title: "数据转换", dir: w }, { title: "坐标系", dir: A, draft: t }, { title: "坐标轴", dir: x }, { title: "视觉映射", dir: e }, { title: "图例", dir: P }, { title: "事件与行为", dir: S }] }, { title: "应用篇", dir: D, children: [{ title: "常用图表类型", dir: k, children: [{ title: "柱状图", dir: "bar", children: [{ title: "基础柱状图", dir: R }, { title: "堆叠柱状图", dir: y }, { title: "动态排序柱状图", dir: F }, { title: "极坐标系柱状图", dir: L, draft: t }, { title: "阶梯瀑布图", dir: _ }, { title: "视觉映射的柱状图", dir: e, draft: t }] }, { title: "折线图", dir: z, children: [{ title: "基础折线图", dir: G }, { title: "堆叠折线图", dir: M }, { title: "区域面积图", dir: T }, { title: "平滑曲线图", dir: V }, { title: "阶梯线图", dir: H }] }, { title: "饼图", dir: "pie", children: [{ title: "基础饼图", dir: I }, { title: "圆环图", dir: j }, { title: "南丁格尔图（玫瑰图）", dir: q }] }, { title: "散点图", dir: N, children: [{ title: "基础散点图", dir: O }] }] }, { title: "移动端优化", dir: i, draft: t }, { title: "跨平台方案", dir: U, children: [{ title: "服务端渲染", dir: "server" }, { title: "微信小程序", dir: "wechat-app" }, { title: "百度智能小程序", dir: "baidu-app" }] }, { title: "数据处理", dir: "data", children: [{ title: "动态的异步数据", dir: W }, { title: "数据下钻", dir: $, draft: t }] }, { title: "标签", dir: "label", children: [{ title: "富文本标签", dir: X }] }, { title: "动画", dir: J, children: [{ title: "数据过渡动画", dir: K }] }, { title: "交互", dir: Q, children: [{ title: "拖拽的实现", dir: "drag" }, { title: "多图联动", dir: Y, draft: t }, { title: "智能指针吸附", dir: Z }] }] }, { title: "最佳实践", dir: tt, children: [{ title: "移动端优化", dir: i, draft: t }, { title: it, dir: et }, { title: "无障碍访问", dir: "aria" }] }, { title: "编辑本文档", dir: "meta", children: [{ title: "文档编辑指南", dir: rt }] }], en: [{ title: "Get Started", dir: r }, { title: "Basics", dir: d, children: [{ title: "Download ECharts", dir: a }, { title: "Import ECharts", dir: l }, { title: "Resources", dir: n, draft: t }, { title: "Get Help", dir: o }, { title: "What's New", dir: c, children: [{ title: "ECharts 5 Features", dir: h }, { title: "Migration from v4 to v5", dir: s }, { title: 5.2, dir: p }, { title: 5.3, dir: f }, { title: 5.4, dir: m }, { title: 5.5, dir: E }] }] }, { title: "Concepts", dir: g, children: [{ title: "Chart Container", dir: b }, { title: "Chart Option", dir: u, draft: t }, { title: "Series", dir: B, draft: t }, { title: "Style", dir: C }, { title: "Dataset", dir: v }, { title: "Data Transform", dir: w }, { title: "Coordinate", dir: A, draft: t }, { title: "Axis", dir: x }, { title: "Visual Mapping", dir: e }, { title: "Legend", dir: P }, { title: "Event and Action", dir: S }] }, { title: "How To Guides", dir: D, children: [{ title: "Common Charts", dir: k, children: [{ title: "Bar", dir: "bar", children: [{ title: "Basic Bar", dir: R }, { title: "Stacked Bar", dir: y }, { title: "Bar Racing", dir: F }, { title: "Bar Polar", dir: L, draft: t }, { title: "Waterfall", dir: _ }] }, { title: "Line", dir: z, children: [{ title: "Basic Line", dir: G }, { title: "Stacked Line", dir: M }, { title: "Area Chart", dir: T }, { title: "Smoothed Line", dir: V }, { title: "Step Line", dir: H }] }, { title: "Pie", dir: "pie", children: [{ title: "Basic Pie", dir: I }, { title: "Ring Style", dir: j }, { title: "Rose Style", dir: q }] }, { title: "Scatter", dir: N, children: [{ title: "Basic Scatter", dir: O }] }] }, { title: "Mobile", dir: i, draft: t }, { title: "Cross Platform", dir: U, children: [{ title: "Server Side Rendering", dir: "server" }] }, { title: "Data", dir: "data", children: [{ title: "Dynamic Data", dir: W }, { title: "Drilldown", dir: $, draft: t }] }, { title: "Label", dir: "label", children: [{ title: "Rich Text", dir: X }] }, { title: "Animation", dir: J, children: [{ title: "Data Transition", dir: K }] }, { title: "Interaction", dir: Q, children: [{ title: "Drag", dir: "drag" }, { title: "Connect", dir: Y, draft: t }, { title: "Intelligent Pointer Snapping", dir: Z }] }] }, { title: "Best Practices", dir: tt, children: [{ title: "Mobile Optimization", dir: i, draft: t }, { title: it, dir: et }, { title: "Aria", dir: "aria" }] }, { title: "Edit Handbook", dir: "meta", children: [{ title: "Edit Guide", dir: rt }] }] }, config: { routerBase: "/handbook", rootPath: "/handbook/", exampleViewPath: "/examples/${lang}/view.html?c=", exampleEditorPath: "/examples/${lang}/editor.html?c=", mainSitePath: "/", optionPath: "/option.html#", gitRepo: "apache/echarts-handbook" }, i18n: { routeParams: {} } }, serverRendered: t, routePath: "/zh/how-to/cross-platform/wechat-app", config: { _app: { basePath: "/handbook/", assetsPath: "/handbook/_nuxt/", cdnURL: null } } } }(!0, "mobile", "visual-map", "get-started", "basics", "download", "import", "resource", "help", "release-note", "v5-feature", "v5-upgrade-guide", "5-2-0", "5-3-0", "5-4-0", "5-5-0", "concepts", "chart-size", "options", "series", "style", "dataset", "data-transform", "coordinate", "axis", "legend", "event", "how-to", "chart-types", "basic-bar", "stacked-bar", "bar-race", "polar-bar", "waterfall", "line", "basic-line", "stacked-line", "area-line", "smooth-line", "step-line", "basic-pie", "doughnut", "rose", "scatter", "basic-scatter", "cross-platform", "dynamic-data", "drilldown", "rich-text", "animation", "transition", "interaction", "connect", "coarse-pointer", "best-practices", "Canvas vs. SVG", "canvas-vs-svg", "edit-guide")</script>
-  <script src="/handbook/_nuxt/c8269cf.js" defer></script>
-  <script src="/handbook/_nuxt/js/d12432e4d91f0b620f9a.js" defer></script>
-  <script src="/handbook/_nuxt/js/9d86a6602b3f4dd6c979.js" defer></script>
-  <script src="/handbook/_nuxt/js/3e4308adb1d2787dfe30.js" defer></script>
-  <script src="/handbook/_nuxt/js/5678ff13ab4729372a2d.js" defer></script>
-  <script src="/handbook/_nuxt/js/e55333c2cccd199c84cc.js" defer></script><noscript data-n-head="ssr" data-body="true">
-    <div class="no-script"><strong>很抱歉，Apache ECharts 网站需要启用 JavaScript 才能正常运行。</strong></div>
+
+
   </noscript>
   <script type="text/javascript">document.getElementById("nav-doc").className = "active"</script>
 
