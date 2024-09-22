@@ -5244,9 +5244,9 @@ var echartsExample;
     new URLSearchParams(location.search).forEach(function (e, t) {
       return (ie[t] = e);
     });
-    var oe = "/examples/js/",
-      se = "/examples/js/",
-      le = "/examples/js/",
+    var oe = "../../examples/js/",
+      se = "../../examples/js/",
+      le = "../../examples/js/",
       ce = {
         echartsDir: "".concat(oe, "echarts@{{version}}"),
         echartsNightlyDir: "".concat(oe, "echarts-nightly@{{version}}"),
@@ -7522,7 +7522,7 @@ var echartsExample;
             var i = "gl" in ie ? "gl/" : "",
               a = ye.typeCheck ? "ts" : "js",
               o = ie.c || "line-simple";
-            $.ajax("".concat(ye.cdnRoot, "/examples/").concat(a, "/").concat(i).concat(o, ".").concat(a, "?_v_").concat(ye.version), {
+            $.ajax("".concat(ye.cdnRoot, "examples/").concat(a, "/").concat(i).concat(o, ".").concat(a, "?_v_").concat(ye.version), {
               dataType: "text",
               success: function (t) {
                 e(t);
@@ -8514,7 +8514,7 @@ var echartsExample;
                     n = t[ct ? "localEChartsDir" : ye.isPR ? "prPreviewEChartsDir" : e ? "echartsNightlyDir" : "echartsDir"],
                     r = ye.isPR ? n.replace("{{PR_NUMBER}}", ye.prNumber) : n.replace("{{version}}", ye.echartsVersion),
                     i = ye.runCode;
-                  return ["/examples/js/" + pt(t.echartsJS) + (ye.isPR ? "?_=" + (ye.prLatestCommit || Date.now()) : "")]
+                  return ["../../examples/js/" + pt(t.echartsJS) + (ye.isPR ? "?_=" + (ye.prLatestCommit || Date.now()) : "")]
                     .concat(
                       at(lt ? [ct ? t.localEChartsGLDir + "/dist/echarts-gl.js" : pt(t.echartsGLJS)] : []),
                       at(!ye.darkMode && ye.theme ? [r + "/theme/".concat(ye.theme, ".js")] : []),

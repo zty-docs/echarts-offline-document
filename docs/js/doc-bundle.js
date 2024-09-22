@@ -4019,7 +4019,10 @@
                       "a",
                       {
                         staticClass: "handbook-link",
-                        attrs: { href: "https://echarts.apache.org/handbook/" + e.shared.locale + "/get-started", target: "blank" },
+                        attrs: {
+                          href: "https://echarts.apache.org/handbook/" + e.shared.locale + "/get-started/index.html",
+                          target: "blank",
+                        },
                       },
                       [e._v(e._s(e.$t("nav.tutorial")))]
                     ),
